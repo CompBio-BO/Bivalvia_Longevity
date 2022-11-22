@@ -1,0 +1,2740 @@
+StartTime: 2022-01-31 16:36:02.2
+WorkingDirectory: /media/storage/mariangelaiannello/OXPHOS_prj_transcriptomes/REVISIONS/0V2_ALL4_TRIMM_AND_CORR_PVALUE/convergence/CONV_ON_SP_TREES/convergence/dir_016
+Options: -alignment ok_OG0008383.faa -tree ok_OG0008383.tree -groups Sl Ll
+
+TreeFile: /media/storage/mariangelaiannello/OXPHOS_prj_transcriptomes/REVISIONS/0V2_ALL4_TRIMM_AND_CORR_PVALUE/convergence/CONV_ON_SP_TREES/convergence/dir_016/ok_OG0008383.tree
+AlignmentFile: /media/storage/mariangelaiannello/OXPHOS_prj_transcriptomes/REVISIONS/0V2_ALL4_TRIMM_AND_CORR_PVALUE/convergence/CONV_ON_SP_TREES/convergence/dir_016/ok_OG0008383.faa
+
+Alignment:
+  SequenceCount: 26
+  SiteCount: 134
+
+Groups: [Sl, Ll]
+
+# The internal nodes of the tree are not labelled. Labelling...
+# Node 1 from [Ll, Sl] resolved
+# Node 3 from [Ll, Sl] resolved
+# Node 9 from [Ll, Sl] resolved
+# Node 17 from [Ll, Sl] resolved
+# Node 1 from [Ll, Sl] resolved
+# Node 3 from [Ll, Sl] resolved
+# Node 9 from [Ll, Sl] resolved
+# Node 17 from [Ll, Sl] resolved
+# Assuming that root of tree is in group [Sl]
+# Switching from group [Sl] to [Ll] at branch 17..4
+# Switching from group [Ll] to [Sl] at branch 3..0
+# Switching from group [Ll] to [Sl] at branch 1..3
+# Switching from group [Sl] to [Ll] at branch 9..18
+
+LabelledTree: >
+  ((((((Ll_Margaritifera_margaritifera:0.0065528,((Sl_Cristaria_plicata:0.0309188,
+  Sl_Hyriopsis_cumingii:0.0886616)Sl:0.0000033,((Sl_Lampsilis_cardium:0.0537263,
+  Ll_Lampsilis_siliquoidea:0.0000033)Ll_GS:0.0031536,Ll_Elliptio_complanata:
+  0.0226324)Ll:0.0698375)Ll_GS:0.0391394)Ll:0.7406918,((Sl_Lyonsia_floridana:
+  0.5429532,Sl_Laternula_elliptica:0.1477465)Sl:0.1269708,((Sl_Galeomma_turtoni:
+  0.1902363,Sl_Sinonovacula_constricta:0.4879903)Sl:0.0415206,(Sl_Sphaerium_nucleus:
+  0.4585075,(Sl_Mya_arenaria:0.5082829,(Sl_Mactra_chinensis:0.2887298,(Sl_Corbicula_fluminea:
+  0.2714831,((Sl_Ruditapes_philippinarum:0.1357808,(Sl_Paphia_textile:0.0834900,
+  Sl_Ruditapes_decussatus:0.0446238)Sl:0.0236660)Sl:0.0217174,(Sl_Glossus_humanus:
+  0.2264676,Ll_Arctica_islandica:0.1647566)Sl_GS:0.0141242)Sl:0.0350659)Sl:
+  0.0048734)Sl:0.0000033)Sl:0.1110995)Sl:0.0221163)Sl:0.4777588)Sl:0.0370667)
+  Sl_GS:0.2575998,Sl_Tegillarca_granosa:0.3631583)Sl:0.0000033,(Sl_Mizuhopecten_yessoensis:
+  0.2320236,Sl_Amusium_pleuronectes:0.0288846)Sl:0.8065815)Sl:0.0458737,(
+  Sl_Perna_viridis:0.2029829,Sl_Bathymodiolus_azoricus:0.1432774)Sl:0.2085800)
+  Sl:0.1855167,Sl_Pinctada_margaritifera:0.2401464,Sl_Saccostrea_glomerata:
+  0.3620317);
+  
+# --------------------------------------------------------------------------------
+
+# 2022-01-31 16:36:02.336 - site 1 complete.
+# Result{site=1, residues={S=24}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.338 - site 2 complete.
+# Result{site=2, residues={R=24}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.338 - site 3 complete.
+# Result{site=3, residues={S=24}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.339 - site 4 complete.
+# Result{site=4, residues={R=23}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.34 - site 5 complete.
+# Result{site=5, residues={S=24}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.34 - site 6 complete.
+# Result{site=6, residues={P=24}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.604 - site 7 complete.
+# Result{site=7, residues={R=14, K=10}, models=[Model{name='WAG+ssF', parameters=2, rate=0.6685243309475482, lnL=-10.265839714230529, frequencies=[{R=0.5978383793684642, K=0.4021616206315358}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.7103941013055062, lnL=-10.184251228321402, frequencies=[{R=0.5673595983843436, K=0.4326404016156563}, {R=0.8303044522869859, K=0.16969554771301407}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.605 - site 8 complete.
+# Result{site=8, residues={R=25}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.675 - site 9 complete.
+# Result{site=9, residues={D=10, E=15}, models=[Model{name='WAG+ssF', parameters=2, rate=0.779826644808054, lnL=-10.223841754773455, frequencies=[{D=0.4123339219475139, E=0.5876660780524862}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.7662208626711602, lnL=-9.393562398834094, frequencies=[{D=0.31605024346229205, E=0.683949756537708}, {D=0.9113895141604215, E=0.08861048583957855}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.72 - site 10 complete.
+# Result{site=10, residues={R=22, K=3}, models=[Model{name='WAG+ssF', parameters=2, rate=0.3164228508248925, lnL=-7.068627815816092, frequencies=[{R=0.8404060858412863, K=0.1595939141587137}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.3726506815620494, lnL=-6.86817803427527, frequencies=[{R=0.8180948686033211, K=0.18190513139667888}, {R=0.9999989479483152, K=1.0520516847119563E-6}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.768 - site 11 complete.
+# Result{site=11, residues={R=16, K=7}, models=[Model{name='WAG+ssF', parameters=2, rate=0.9089850038290024, lnL=-11.316390872043609, frequencies=[{R=0.7769479066991545, K=0.2230520933008455}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.9239368949030964, lnL=-11.300785360961292, frequencies=[{R=0.7689588305355105, K=0.2310411694644896}, {R=0.8364515148051147, K=0.16354848519488535}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.809 - site 12 complete.
+# Result{site=12, residues={R=21, S=2}, models=[Model{name='WAG+ssF', parameters=2, rate=0.24009571596980095, lnL=-4.927983233581346, frequencies=[{R=0.7882786935178674, S=0.2117213064821326}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.2862334785156311, lnL=-4.768397571447571, frequencies=[{R=0.7753024176004121, S=0.2246975823995879}, {R=0.9999997969138698, S=2.0308613028997502E-7}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.852 - site 13 complete.
+# Result{site=13, residues={K=2, S=22}, models=[Model{name='WAG+ssF', parameters=2, rate=0.6297654416412115, lnL=-6.230069363989999, frequencies=[{K=0.1529493368635515, S=0.8470506631364485}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.7128495979182274, lnL=-5.951584684665049, frequencies=[{K=0.17000753154101683, S=0.8299924684589831}, {K=4.444821252853929E-8, S=0.9999999555517876}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.895 - site 14 complete.
+# Result{site=14, residues={R=22, K=2}, models=[Model{name='WAG+ssF', parameters=2, rate=1.2318945731967688, lnL=-6.555142005304398, frequencies=[{R=0.8940655816792833, K=0.1059344183207168}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=1.5652787921478244, lnL=-6.23148052138761, frequencies=[{R=0.8802007193117491, K=0.11979928068825092}, {R=0.999998038821974, K=1.9611780259406066E-6}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.943 - site 15 complete.
+# Result{site=15, residues={E=4, S=20}, models=[Model{name='WAG+ssF', parameters=2, rate=0.336088398238644, lnL=-7.413777310233551, frequencies=[{E=0.24956485742159626, S=0.7504351425784037}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.4033832457769697, lnL=-7.059588770658115, frequencies=[{E=0.2914231707598702, S=0.7085768292401298}, {E=8.018806570840168E-7, S=0.999999198119343}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:02.944 - site 16 complete.
+# Result{site=16, residues={R=25}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:03.037 - site 17 complete.
+# Result{site=17, residues={R=11, K=7}, models=[Model{name='WAG+ssF', parameters=2, rate=0.6338329031132162, lnL=-6.225882186354046, frequencies=[{R=0.6693681051291802, K=0.3306318948708198}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.005592950676543597, lnL=-0.05850215543503624, frequencies=[{R=0.9800674213241526, K=0.019932578675847426}, {R=4.53990880736807E-5, K=0.9999546009119263}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:03.509 - site 18 complete.
+# Result{site=18, residues={R=6, D=9, E=5}, models=[Model{name='WAG+ssF', parameters=3, rate=8.65692034262187, lnL=-12.73189883476356, frequencies=[{R=0.16979590709347586, D=0.536016772147563, E=0.29418732075896115}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=6.714473672598448, lnL=-10.159391762959112, frequencies=[{R=2.434968517968515E-8, D=0.6269447563347894, E=0.3730552193155253}, {R=0.7213995622635935, D=0.24134312703993144, E=0.03725731069647509}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:03.509 - site 19 complete.
+# Result{site=19, residues={R=19}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:03.541 - site 20 complete.
+# Result{site=20, residues={H=20, T=2}, models=[Model{name='WAG+ssF', parameters=2, rate=1.256202076561749, lnL=-6.297887912901077, frequencies=[{H=0.8783371111865346, T=0.12166288881346543}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=1.5633360425916485, lnL=-5.940300417319383, frequencies=[{H=0.8599702485405059, T=0.14002975145949403}, {H=0.9999998776252615, T=1.2237473855945993E-7}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:03.607 - site 21 complete.
+# Result{site=21, residues={R=16, K=7}, models=[Model{name='WAG+ssF', parameters=2, rate=0.4844358107075095, lnL=-6.301733363730082, frequencies=[{R=0.7780356927410084, K=0.2219643072589916}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.3474914624386698, lnL=-4.606261511495962, frequencies=[{R=0.8988472661599218, K=0.10115273384007811}, {R=0.03875030122121199, K=0.961249698778788}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:03.648 - site 22 complete.
+# Result{site=22, residues={R=23, H=2}, models=[Model{name='WAG+ssF', parameters=2, rate=0.44271168605796263, lnL=-6.093909271996917, frequencies=[{R=0.8117488398041909, H=0.188251160195809}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.49244141547621373, lnL=-5.838745910531765, frequencies=[{R=0.7929508930914198, H=0.2070491069085802}, {R=0.9999975687926339, H=2.431207366192142E-6}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.029 - site 23 complete.
+# Result{site=23, residues={R=2, H=14, K=2, S=7}, models=[Model{name='WAG+ssF', parameters=4, rate=2.0162594123874116, lnL=-18.868153936183887, frequencies=[{R=0.1119041413021177, H=0.586541959459393, K=0.1307202131970333, S=0.170833686041456}], converged=true}, Model{name='WAG+lssF', parameters=7, rate=2.0128931991366814, lnL=-17.106963676550635, frequencies=[{R=0.11327648081162431, H=0.6630770521447399, K=0.1345903358760587, S=0.08905613116757703}, {R=0.020907564456749836, H=0.14955970235763452, K=0.0018867120972309113, S=0.8276460210883847}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.099 - site 24 complete.
+# Result{site=24, residues={R=16, H=6}, models=[Model{name='WAG+ssF', parameters=2, rate=0.1934119136758397, lnL=-3.7234430613104097, frequencies=[{R=0.7861046460973662, H=0.21389535390263392}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=4.1482410287807937E-4, lnL=-0.5912517309747003, frequencies=[{R=0.9946115560180551, H=0.005388443981945019}, {R=4.542138241074765E-5, H=0.9999545786175893}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.099 - site 25 complete.
+# Result{site=25, residues={S=20}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.1 - site 26 complete.
+# Result{site=26, residues={R=25}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.1 - site 27 complete.
+# Result{site=27, residues={S=25}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.1 - site 28 complete.
+# Result{site=28, residues={R=25}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.1 - site 29 complete.
+# Result{site=29, residues={S=25}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.1 - site 30 complete.
+# Result{site=30, residues={P=14}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.1 - site 31 complete.
+# Result{site=31, residues={R=24}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.315 - site 32 complete.
+# Result{site=32, residues={R=8, D=11, H=5}, models=[Model{name='WAG+ssF', parameters=3, rate=0.3412690628094242, lnL=-8.16528104186619, frequencies=[{R=0.4433170079282329, D=0.4483721391774704, H=0.10831085289429664}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.0969466061944887, lnL=-5.10639627204258, frequencies=[{R=0.4960591504561774, D=0.5039408456087362, H=3.935086369352386E-9}, {R=0.007188167514516735, D=1.6073942458778994E-4, H=0.9926510930608955}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.354 - site 33 complete.
+# Result{site=33, residues={R=10, K=11}, models=[Model{name='WAG+ssF', parameters=2, rate=0.6327834644743657, lnL=-7.966341444385305, frequencies=[{R=0.5027954365769787, K=0.4972045634230214}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.7070204676261844, lnL=-7.783771834838171, frequencies=[{R=0.4489763908858487, K=0.5510236091141514}, {R=0.8591478706818796, K=0.14085212931812038}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.406 - site 34 complete.
+# Result{site=34, residues={G=10, S=10}, models=[Model{name='WAG+ssF', parameters=2, rate=0.3669846747070551, lnL=-5.962135758965698, frequencies=[{G=0.6011224339398659, S=0.3988775660601342}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.3902350354613129, lnL=-5.799912122900773, frequencies=[{G=0.6430888322419399, S=0.3569111677580601}, {G=0.12046766007483943, S=0.8795323399251604}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.406 - site 35 complete.
+# Result{site=35, residues={R=24}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:04.452 - site 36 complete.
+# Result{site=36, residues={R=19, K=3}, models=[Model{name='WAG+ssF', parameters=2, rate=2.221463829278946, lnL=-8.295849279589817, frequencies=[{R=0.8301992290776998, K=0.1698007709223002}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=2.87409101210893, lnL=-7.699634701771874, frequencies=[{R=0.80219301010445, K=0.19780698989554998}, {R=0.9999989186960782, K=1.0813039218918955E-6}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:06.885 - site 37 complete.
+# Result{site=37, residues={R=2, N=2, D=8, E=7, H=3, S=2}, models=[Model{name='WAG+ssF', parameters=6, rate=1.4170394708976763, lnL=-26.759645834262333, frequencies=[{R=0.2980458352145288, N=0.10468783141242184, D=0.14997728198434152, E=0.11832991763118156, H=0.14672878459610436, S=0.18223034916142197}], converged=true}, Model{name='WAG+lssF', parameters=11, rate=1.5368053830574628, lnL=-25.661225829860896, frequencies=[{R=0.2828500627025229, N=0.11846867594140606, D=0.10889547719866126, E=0.1565604038149484, H=0.14845448650452744, S=0.184770893837934}, {R=1.0880357882085325E-7, N=5.385548803694189E-4, D=0.8682180551286234, E=0.1312372591277502, H=1.513328200105046E-6, S=4.508731478267157E-6}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:06.887 - site 38 complete.
+# Result{site=38, residues={R=22}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:06.928 - site 39 complete.
+# Result{site=39, residues={R=16, S=8}, models=[Model{name='WAG+ssF', parameters=2, rate=0.4473377820686437, lnL=-8.049203814850092, frequencies=[{R=0.46168032397373854, S=0.5383196760262614}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.29488048160788705, lnL=-6.251074805677016, frequencies=[{R=0.3094342526730893, S=0.6905657473269107}, {R=0.9999975996742649, S=2.4003257351396325E-6}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:07.087 - site 40 complete.
+# Result{site=40, residues={R=12, H=6, Y=3}, models=[Model{name='WAG+ssF', parameters=3, rate=1.1382857256983412, lnL=-13.063429790947684, frequencies=[{R=0.47703199297951715, H=0.22921383289350644, Y=0.29375417412697635}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=1.1962637935605551, lnL=-12.970264694377423, frequencies=[{R=0.46357151689822085, H=0.23647117149725944, Y=0.29995731160451977}, {R=0.8008008952444042, H=0.199188125772597, Y=1.0978982998813306E-5}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:07.215 - site 41 complete.
+# Result{site=41, residues={D=8, E=2, S=14}, models=[Model{name='WAG+ssF', parameters=3, rate=0.7475935405000729, lnL=-12.49783187864797, frequencies=[{D=0.25433833655957017, E=0.14605652207949887, S=0.5996051413609309}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.7392651206589328, lnL=-12.441703482956617, frequencies=[{D=0.24809062936964657, E=0.14615712635558334, S=0.60575224427477}, {D=0.5632897749753085, E=0.4361600456612258, S=5.501793634657827E-4}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:07.347 - site 42 complete.
+# Result{site=42, residues={R=18, G=2, K=3}, models=[Model{name='WAG+ssF', parameters=3, rate=6.387029164795139, lnL=-14.627923722986662, frequencies=[{R=0.7328617164345455, G=0.13659910201201525, K=0.13053918155343935}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=7.213729513800132, lnL=-13.570085244374209, frequencies=[{R=0.6827002553937679, G=0.15776240035969769, K=0.15953734424653448}, {R=0.9999928305191998, G=4.780573700253902E-6, K=2.3889070996723766E-6}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:07.383 - site 43 complete.
+# Result{site=43, residues={R=21, K=4}, models=[Model{name='WAG+ssF', parameters=2, rate=0.6698314473032951, lnL=-8.616975392667479, frequencies=[{R=0.7641338138822881, K=0.23586618611771185}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.726028051076992, lnL=-8.146491285842215, frequencies=[{R=0.7289913145265662, K=0.27100868547343393}, {R=0.9999994041141613, K=5.958858386208787E-7}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:07.41 - site 44 complete.
+# Result{site=44, residues={D=20, E=5}, models=[Model{name='WAG+ssF', parameters=2, rate=1.1505313229281455, lnL=-10.746664953265446, frequencies=[{D=0.6483822315187585, E=0.3516177684812415}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=1.269629775042699, lnL=-10.038717731896677, frequencies=[{D=0.6120034924733851, E=0.3879965075266148}, {D=0.99999947539327, E=5.2460672994117E-7}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:07.441 - site 45 complete.
+# Result{site=45, residues={R=16, K=7}, models=[Model{name='WAG+ssF', parameters=2, rate=0.44097014371072873, lnL=-6.395676213654345, frequencies=[{R=0.7349837696904075, K=0.2650162303095925}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.33663717290277473, lnL=-4.699318339739913, frequencies=[{R=0.8945421361741205, K=0.10545786382587954}, {R=0.03723880456183735, K=0.9627611954381626}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:07.717 - site 46 complete.
+# Result{site=46, residues={R=8, G=5, K=2, S=7}, models=[Model{name='WAG+ssF', parameters=4, rate=4.1318877091868025, lnL=-19.01039112126442, frequencies=[{R=0.5807733555096, G=0.1129799048768397, K=0.14717419180716237, S=0.159072547806398}], converged=true}, Model{name='WAG+lssF', parameters=7, rate=4.058939619134835, lnL=-17.404630935122558, frequencies=[{R=0.6466984481084025, G=0.13442037696778128, K=0.13459724310706694, S=0.08428393181674908}, {R=0.15421691955335473, G=3.607681159734464E-5, K=0.14641887789214442, S=0.6993281257429035}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:07.847 - site 47 complete.
+# Result{site=47, residues={R=7, D=10, E=5}, models=[Model{name='WAG+ssF', parameters=3, rate=1.1975965889339681, lnL=-14.883527871346013, frequencies=[{R=0.5743575736303828, D=0.24748894916478933, E=0.17815347720482785}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=1.3750787025412468, lnL=-13.307687561372713, frequencies=[{R=0.4155759735568271, D=0.33701907864516756, E=0.24740494779800526}, {R=0.8754207910193418, D=0.12004871718382741, E=0.004530491796830825}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:07.972 - site 48 complete.
+# Result{site=48, residues={R=14, G=2, K=3}, models=[Model{name='WAG+ssF', parameters=3, rate=0.8754892430240004, lnL=-12.804006861887268, frequencies=[{R=0.4756126895843339, G=0.41669359580869564, K=0.10769371460697046}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=1.6732032006597999, lnL=-11.843885720412606, frequencies=[{R=0.4871009689681901, G=0.35291592182315995, K=0.1599831092086499}, {R=0.9999989490976935, G=1.0508101103384979E-6, K=9.219618733052304E-11}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:08.947 - site 49 complete.
+# Result{site=49, residues={D=13, Q=2, E=2, G=3, H=2}, models=[Model{name='WAG+ssF', parameters=5, rate=7.781977695944685, lnL=-25.698725358220823, frequencies=[{D=0.5106878138690308, Q=0.11492368200887645, E=0.08815103017981901, G=0.17775018699918446, H=0.10848728694308922}], converged=true}, Model{name='WAG+lssF', parameters=9, rate=9.394161871419257, lnL=-23.396138323265166, frequencies=[{D=0.42533756938365275, Q=0.131727520331896, E=0.11131437440726677, G=0.20653214522169944, H=0.12508839065548516}, {D=0.9999979069791782, Q=2.4694556509819534E-10, E=2.0921058199673695E-6, G=1.963843637638421E-211, H=6.680561351029278E-10}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:08.948 - site 50 complete.
+# Result{site=50, residues={R=21}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:09.232 - site 51 complete.
+# Result{site=51, residues={D=6, E=2, G=2, S=8}, models=[Model{name='WAG+ssF', parameters=4, rate=3.4081238487960386, lnL=-17.305918695165992, frequencies=[{D=0.35372873573792435, E=0.12368819722575698, G=0.19928302713441207, S=0.32330003990190653}], converged=true}, Model{name='WAG+lssF', parameters=7, rate=3.693170146078538, lnL=-16.469516951607197, frequencies=[{D=0.37944800387934663, E=0.13602028033366526, G=0.23995085641163863, S=0.24458085937534946}, {D=0.24858106234408264, E=0.01293688573936384, G=3.460323195032657E-5, S=0.7384474486846032}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:09.347 - site 52 complete.
+# Result{site=52, residues={R=14, Q=2, G=3}, models=[Model{name='WAG+ssF', parameters=3, rate=5.1296517163019555, lnL=-13.535246275764475, frequencies=[{R=0.6654029496802621, Q=0.10603830134308484, G=0.22855874897665296}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=6.968701239153543, lnL=-12.19651538694244, frequencies=[{R=0.6006566653831056, Q=0.13625374025832437, G=0.26308959435857004}, {R=0.9999973839275609, Q=2.6160553951749376E-6, G=1.7043913799903906E-11}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:09.451 - site 53 complete.
+# Result{site=53, residues={D=4, E=7, S=6}, models=[Model{name='WAG+ssF', parameters=3, rate=3.7587903837756693, lnL=-14.199900690578739, frequencies=[{D=0.14064263542466848, E=0.5305158083372628, S=0.3288415562380688}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=1.6416431658220534, lnL=-9.54174862032622, frequencies=[{D=4.0762920199658833E-7, E=0.6136137388334455, S=0.3863858535373525}, {D=0.9512084581688189, E=0.04879154178565544, S=4.552556555316701E-11}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:09.708 - site 54 complete.
+# Result{site=54, residues={D=5, E=7, S=3, T=3}, models=[Model{name='WAG+ssF', parameters=4, rate=31.57599227818823, lnL=-21.220409938095063, frequencies=[{D=0.3303607173207622, E=0.443573941051571, S=0.1564691843585638, T=0.06959615726910304}], converged=true}, Model{name='WAG+lssF', parameters=7, rate=46.03995685748686, lnL=-17.649086286355914, frequencies=[{D=0.3343934868948868, E=0.566797605767064, S=0.09880890733804916, T=1.1155246265570043E-69}, {D=0.27579908332223146, E=5.421443313161739E-5, S=0.2604698210979279, T=0.4636768811467091}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:09.749 - site 55 complete.
+# Result{site=55, residues={D=9, E=9}, models=[Model{name='WAG+ssF', parameters=2, rate=1.94270992372185, lnL=-9.477515754434219, frequencies=[{D=0.3944257588697775, E=0.6055742411302225}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=1.4616724798627811, lnL=-6.132372485443085, frequencies=[{D=0.2331975994431328, E=0.7668024005568672}, {D=0.9999984531756935, E=1.5468243065521154E-6}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:09.858 - site 56 complete.
+# Result{site=56, residues={D=5, E=9, T=6}, models=[Model{name='WAG+ssF', parameters=3, rate=0.7187737049447845, lnL=-11.966305357549, frequencies=[{D=0.38126499512758133, E=0.2632379574332808, T=0.3554970474391378}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.7024818078976576, lnL=-8.744656816094613, frequencies=[{D=0.651038404174475, E=0.34896084257324705, T=7.532522778284475E-7}, {D=3.49068746972862E-7, E=0.0637751761384224, T=0.9362244747928306}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:09.896 - site 57 complete.
+# Result{site=57, residues={E=16, V=2}, models=[Model{name='WAG+ssF', parameters=2, rate=0.8912206590175629, lnL=-5.263343173920359, frequencies=[{E=0.7718121109439058, V=0.22818788905609427}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.8300878483211346, lnL=-4.683321697192121, frequencies=[{E=0.6659057143474452, V=0.3340942856525548}, {E=0.9999994198851293, V=5.801148705751195E-7}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:10.072 - site 58 complete.
+# Result{site=58, residues={I=2, L=10, V=7}, models=[Model{name='WAG+ssF', parameters=3, rate=1.7533505122959294, lnL=-11.393295319441286, frequencies=[{I=0.1939616852881905, L=0.5329702502231101, V=0.27306806448869936}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=1.7381338042095744, lnL=-9.842029080618246, frequencies=[{I=0.2052141801574391, L=0.6640560120039364, V=0.13072980783862437}, {I=0.04907402530533968, L=5.042025199959942E-5, V=0.9508755544426607}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:10.189 - site 59 complete.
+# Result{site=59, residues={I=12, T=3, V=5}, models=[Model{name='WAG+ssF', parameters=3, rate=1.7355930513189608, lnL=-15.568483969026337, frequencies=[{I=0.320756249099548, T=0.36480112710224755, V=0.3144426237982044}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=1.4366460459836565, lnL=-13.263146570800785, frequencies=[{I=0.2001610415035133, T=0.4309398203475851, V=0.3688991381489016}, {I=0.9999995754133884, T=4.966777638322697E-8, V=3.7491883523534544E-7}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:10.23 - site 60 complete.
+# Result{site=60, residues={F=17, Y=2}, models=[Model{name='WAG+ssF', parameters=2, rate=0.5082505988712003, lnL=-5.012674248976891, frequencies=[{F=0.6904181581584021, Y=0.3095818418415979}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.5592569718320839, lnL=-4.577769737830574, frequencies=[{F=0.6406398997674441, Y=0.35936010023255593}, {F=0.999999822920731, Y=1.770792690439415E-7}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:10.275 - site 61 complete.
+# Result{site=61, residues={Q=10, S=6}, models=[Model{name='WAG+ssF', parameters=2, rate=0.26861234195530415, lnL=-3.809366736771614, frequencies=[{Q=0.5924003011319686, S=0.40759969886803127}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.3526630993916473, lnL=-3.492640904623602, frequencies=[{Q=0.7337987875558328, S=0.2662012124441673}, {Q=0.05963027049485244, S=0.9403697295051475}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:10.422 - site 62 complete.
+# Result{site=62, residues={K=7, S=7, V=2}, models=[Model{name='WAG+ssF', parameters=3, rate=0.9942535900678817, lnL=-8.558602055637612, frequencies=[{K=0.3077081195764272, S=0.3549331737558111, V=0.3373587066677617}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.9365822991937092, lnL=-7.438850023436643, frequencies=[{K=0.16133075428648616, S=0.4676844953260853, V=0.37098475038742845}, {K=0.9215279221364282, S=0.07845222900863023, V=1.9848854941568583E-5}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:10.78 - site 63 complete.
+# Result{site=63, residues={Q=7, E=2, I=5, V=5}, models=[Model{name='WAG+ssF', parameters=4, rate=8.980255559562895, lnL=-18.21966730326213, frequencies=[{Q=0.34437938998516904, E=0.15683372427742462, I=0.23921176185320173, V=0.2595751238842045}], converged=true}, Model{name='WAG+lssF', parameters=7, rate=8.59585912614613, lnL=-15.885877034670212, frequencies=[{Q=0.18823534436635675, E=0.2340379919869919, I=0.24789010299228345, V=0.3298365606543679}, {Q=0.881615902238821, E=0.019728232496813932, I=0.09865128151069028, V=4.583753674718519E-6}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:11.166 - site 64 complete.
+# Result{site=64, residues={N=2, D=4, Q=3, E=12, K=2}, models=[Model{name='WAG+ssF', parameters=5, rate=2.461747514338981, lnL=-25.666619396577293, frequencies=[{N=0.15121191379863075, D=0.15853286975628128, Q=0.1336367653124121, E=0.40523725046406345, K=0.15138120066861235}], converged=true}, Model{name='WAG+lssF', parameters=9, rate=2.6945070732349246, lnL=-25.08300372124194, frequencies=[{N=0.1602733702686036, D=0.16310664371568226, Q=0.15383667441222257, E=0.3641415190498858, K=0.15864179255360575}, {N=5.719884824855833E-7, D=0.2179747937347225, Q=6.340638648838305E-7, E=0.7820012234573378, K=2.27767555923786E-5}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:11.39 - site 65 complete.
+# Result{site=65, residues={A=2, R=4, K=11, P=6}, models=[Model{name='WAG+ssF', parameters=4, rate=1.009834755188101, lnL=-16.13006632706672, frequencies=[{A=0.20874322049135385, R=0.20612569167405895, K=0.34489960119264546, P=0.24023148664194174}], converged=true}, Model{name='WAG+lssF', parameters=7, rate=0.8909470362487736, lnL=-13.03971129986685, frequencies=[{A=0.29714577773735823, R=0.27267088606763573, K=0.43018282796809015, P=5.082269158581962E-7}, {A=0.038295955823619776, R=9.118905235521574E-7, K=7.31729845224979E-4, P=0.9609714024406317}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:11.624 - site 66 complete.
+# Result{site=66, residues={A=2, K=6, P=12, T=2}, models=[Model{name='WAG+ssF', parameters=4, rate=1.750808337259507, lnL=-15.914544956295224, frequencies=[{A=0.14726154172860903, K=0.11557084718907715, P=0.5658714485383601, T=0.1712961625439537}], converged=true}, Model{name='WAG+lssF', parameters=7, rate=1.7820132020235393, lnL=-12.822368360168792, frequencies=[{A=0.14919687670419696, K=1.4914012085334598E-6, P=0.6772726472590328, T=0.17352898463556168}, {A=3.6104678859120696E-10, K=0.9207824803032971, P=7.778477543884947E-5, T=0.07913973456021739}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:14.419 - site 67 complete. (warning: did not converge)
+# Result{site=67, residues={A=2, N=4, I=4, K=2, P=6, T=2, V=2}, models=[Model{name='WAG+ssF', parameters=7, rate=6.541390100861864, lnL=-35.636841452954016, frequencies=[{A=0.10751686279724663, N=0.2499201900909952, I=0.1455517920465033, K=0.12619569352812154, P=0.1888268870851436, T=0.06510537022706556, V=0.11688320422492415}], converged=true}, Model{name='WAG+lssF', parameters=13, rate=5.2261359885319, lnL=-29.832103953618986, frequencies=[{A=0.13146504241407575, N=0.30744314831287256, I=0.0997244308464032, K=0.17839827298639127, P=0.10953196863361322, T=0.0029878223898968546, V=0.1704493144167472}, {A=0.0015573293520082458, N=1.9467610446911844E-10, I=0.30890556156726556, K=1.5485467590294382E-12, P=0.5721200952672731, T=0.11741653594439867, V=4.77672829621057E-7}], converged=false}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:14.558 - site 68 complete.
+# Result{site=68, residues={I=2, L=6, V=15}, models=[Model{name='WAG+ssF', parameters=3, rate=0.9382334675744162, lnL=-9.847347894617071, frequencies=[{I=0.12416601744525685, L=0.15334165865467497, V=0.7224923239000681}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.8023006241419528, lnL=-6.865660296728863, frequencies=[{I=0.13877438620623997, L=4.478032385675886E-8, V=0.8612255690134363}, {I=1.90992320243135E-5, L=0.9151936679713201, V=0.08478723279665562}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:14.689 - site 69 complete.
+# Result{site=69, residues={D=7, S=7, T=7}, models=[Model{name='WAG+ssF', parameters=3, rate=3.3354258998945037, lnL=-15.165591829514952, frequencies=[{D=0.2341029601888723, S=0.3471806365418512, T=0.4187164032692764}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=3.4968933081029894, lnL=-13.825079330155944, frequencies=[{D=0.15220776413460865, S=0.36102890727721626, T=0.4867633285881751}, {D=0.758635798826322, S=0.24135337172650081, T=1.0829447177026386E-5}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:14.823 - site 70 complete.
+# Result{site=70, residues={A=2, D=4, E=18}, models=[Model{name='WAG+ssF', parameters=3, rate=3.063675860467618, lnL=-14.413948152230722, frequencies=[{A=0.12787595706210036, D=0.0965300859332084, E=0.7755939570046911}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=3.559903927452149, lnL=-13.317983489704663, frequencies=[{A=0.12185880985792455, D=0.05948953701527964, E=0.8186516531267958}, {A=1.5040588099290873E-5, D=0.47069928631553276, E=0.5292856730963679}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:14.854 - site 71 complete.
+# Result{site=71, residues={A=7, E=14}, models=[Model{name='WAG+ssF', parameters=2, rate=0.5036349662196957, lnL=-5.791715887651052, frequencies=[{A=0.27163551440425265, E=0.7283644855957473}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.36402191182664045, lnL=-4.335647955503846, frequencies=[{A=0.13387412350547337, E=0.8661258764945267}, {A=0.9588020915797303, E=0.04119790842026974}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:14.99 - site 72 complete.
+# Result{site=72, residues={D=7, Q=9, E=9}, models=[Model{name='WAG+ssF', parameters=3, rate=2.6983852878502934, lnL=-19.77386727259661, frequencies=[{D=0.24248652363506207, Q=0.27732923654407743, E=0.48018423982086056}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=2.8074767573219583, lnL=-18.43816191562713, frequencies=[{D=0.24517422795985547, Q=0.22149835366860351, E=0.5333274183715409}, {D=0.04721717279928627, Q=0.8984222374914325, E=0.05436058970928139}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:15.022 - site 73 complete.
+# Result{site=73, residues={I=4, L=19}, models=[Model{name='WAG+ssF', parameters=2, rate=0.49490865368755765, lnL=-8.012887389277697, frequencies=[{I=0.2542228234733653, L=0.7457771765266347}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.4567093938187704, lnL=-7.294663919445815, frequencies=[{I=0.31210614257744984, L=0.6878938574225503}, {I=2.0139705403535404E-7, L=0.999999798602946}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:15.392 - site 74 complete.
+# Result{site=74, residues={A=6, Q=10, E=3, K=3, S=2}, models=[Model{name='WAG+ssF', parameters=5, rate=2.046865910936722, lnL=-23.666076505168128, frequencies=[{A=0.13045882293447106, Q=0.3147469312296866, E=0.15174800859302792, K=0.17504278258160222, S=0.22800345466121227}], converged=true}, Model{name='WAG+lssF', parameters=9, rate=1.8677596726804018, lnL=-20.438666922542605, frequencies=[{A=3.7153836502776605E-9, Q=0.3484675937599188, E=0.16863671504397237, K=0.1965173193662296, S=0.2863783681144955}, {A=0.9434116303851726, Q=6.53112400236011E-5, E=7.329381224401535E-11, K=2.048671640269745E-7, S=0.056522853434346015}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:15.735 - site 75 complete.
+# Result{site=75, residues={A=4, N=6, E=6, G=5, S=2}, models=[Model{name='WAG+ssF', parameters=5, rate=1.6514602893954398, lnL=-19.980197379580027, frequencies=[{A=0.3723937315530504, N=0.1478001801891573, E=0.1391143704092143, G=0.17488355539520062, S=0.16580816245337748}], converged=true}, Model{name='WAG+lssF', parameters=9, rate=1.5715404114035407, lnL=-17.125550071134096, frequencies=[{A=0.43781789485385714, N=0.16696164292725327, E=1.0562170254296149E-6, G=0.20577179307146684, S=0.18944761293039733}, {A=0.0991547560072116, N=5.643686479619742E-5, E=0.9007887215844792, G=4.396220641443424E-8, S=4.1581306339438433E-8}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:15.772 - site 76 complete.
+# Result{site=76, residues={L=3, M=20}, models=[Model{name='WAG+ssF', parameters=2, rate=0.8129742164164782, lnL=-7.711564784064756, frequencies=[{L=0.19544062898229023, M=0.8045593710177097}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.9684157382056346, lnL=-7.321239685780264, frequencies=[{L=0.22169600042484128, M=0.7783039995751587}, {L=3.8300437352218375E-7, M=0.9999996169956263}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:15.914 - site 77 complete.
+# Result{site=77, residues={P=15, S=3, T=6}, models=[Model{name='WAG+ssF', parameters=3, rate=0.562845039490371, lnL=-9.865492647670074, frequencies=[{P=0.7410608407790225, S=0.14557358879417084, T=0.11336557042680676}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.4042697097305823, lnL=-6.674333093111998, frequencies=[{P=0.8359677863509857, S=0.16403221364901424, T=1.7212509926538775E-118}, {P=4.905382984345289E-5, S=0.009097205083966386, T=0.9908537410861902}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:15.914 - site 78 complete.
+# Result{site=78, residues={E=23}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.028 - site 79 complete.
+# Result{site=79, residues={D=13, E=10, S=2}, models=[Model{name='WAG+ssF', parameters=3, rate=0.8856323466205893, lnL=-16.056931522234667, frequencies=[{D=0.3970309469964318, E=0.2190429213278904, S=0.3839261316756778}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.8889042769027957, lnL=-15.083337202729972, frequencies=[{D=0.45027974893513995, E=0.16804965949753317, S=0.38167059156732686}, {D=0.1029856068602025, E=0.8969433042012863, S=7.108893851121734E-5}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.067 - site 80 complete.
+# Result{site=80, residues={D=6, E=19}, models=[Model{name='WAG+ssF', parameters=2, rate=0.9059521020390093, lnL=-9.26192616287159, frequencies=[{D=0.12227552835179573, E=0.8777244716482042}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.4426557060367411, lnL=-8.068693083415933, frequencies=[{D=0.07178102859572119, E=0.9282189714042789}, {D=0.9011149656050169, E=0.0988850343949831}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.101 - site 81 complete.
+# Result{site=81, residues={A=3, Q=21}, models=[Model{name='WAG+ssF', parameters=2, rate=0.3655670151823508, lnL=-6.444166770293954, frequencies=[{A=0.27864214326336584, Q=0.7213578567366342}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.4146772909019555, lnL=-6.14089689535504, frequencies=[{A=0.30395151408046595, Q=0.696048485919534}, {A=3.531289016867543E-8, Q=0.9999999646871097}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.182 - site 82 complete.
+# Result{site=82, residues={D=2, Q=2, E=20}, models=[Model{name='WAG+ssF', parameters=3, rate=0.5434780128593566, lnL=-9.771194040480134, frequencies=[{D=0.13574870273203227, Q=0.13433515387150988, E=0.7299161433964578}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.5761994018618585, lnL=-9.255201039823516, frequencies=[{D=0.1596326929428354, Q=0.1596332641269625, E=0.6807340429302021}, {D=4.1284779616971036E-14, Q=7.234754648172365E-7, E=0.9999992765244939}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.224 - site 83 complete.
+# Result{site=83, residues={L=10, M=16}, models=[Model{name='WAG+ssF', parameters=2, rate=0.3653593217022717, lnL=-9.423488066378292, frequencies=[{L=0.4265424195143822, M=0.5734575804856178}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.3972481962911733, lnL=-9.282086766667794, frequencies=[{L=0.4290278420586561, M=0.5709721579413438}, {L=0.08329755040983476, M=0.9167024495901653}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.251 - site 84 complete.
+# Result{site=84, residues={A=2, M=23}, models=[Model{name='WAG+ssF', parameters=2, rate=0.2941416800022125, lnL=-4.81318408040892, frequencies=[{A=0.09996027585614022, M=0.9000397241438598}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.33992848526647435, lnL=-4.664155426542311, frequencies=[{A=0.11079523571813409, M=0.8892047642818659}, {A=2.0369653567858664E-6, M=0.9999979630346433}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.295 - site 85 complete.
+# Result{site=85, residues={R=9, K=17}, models=[Model{name='WAG+ssF', parameters=2, rate=1.6144469822756946, lnL=-14.149661974105976, frequencies=[{R=0.3298071993902976, K=0.6701928006097023}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=1.658253522982651, lnL=-14.06918521981473, frequencies=[{R=0.34874988146481095, K=0.651250118535189}, {R=0.19762788698204148, K=0.8023721130179586}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.424 - site 86 complete.
+# Result{site=86, residues={A=2, L=6, V=16}, models=[Model{name='WAG+ssF', parameters=3, rate=0.794490597944939, lnL=-12.52212471148603, frequencies=[{A=0.13182033255806513, L=0.32123895785667056, V=0.5469407095852642}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.8022312674708703, lnL=-11.453440093317498, frequencies=[{A=0.1573010765128269, L=0.3780569070727627, V=0.4646420164144105}, {A=1.1084454822970892E-7, L=8.872574262920386E-7, V=0.9999990018980255}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.425 - site 87 complete.
+# Result{site=87, residues={M=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.425 - site 88 complete.
+# Result{site=88, residues={G=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.425 - site 89 complete.
+# Result{site=89, residues={F=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:16.962 - site 90 complete.
+# Result{site=90, residues={A=2, G=3, S=11, T=8, V=2}, models=[Model{name='WAG+ssF', parameters=5, rate=0.46281197482125014, lnL=-18.880233208149882, frequencies=[{A=0.10087432515873097, G=0.3930201830635312, S=0.15213761671601103, T=0.12062864955021083, V=0.23333922551151584}], converged=true}, Model{name='WAG+lssF', parameters=9, rate=0.532973834869964, lnL=-18.23594256367002, frequencies=[{A=0.1018941622298421, G=0.3564532411438628, S=0.18995446352716855, T=0.0983269709800868, V=0.2533711621190397}, {A=1.2057045518739178E-6, G=3.2538530520584925E-6, S=0.07063678221677157, T=0.9292665673869609, V=9.219083866369488E-5}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:17.09 - site 91 complete.
+# Result{site=91, residues={N=2, G=18, S=6}, models=[Model{name='WAG+ssF', parameters=3, rate=0.8425379290706636, lnL=-13.417891904876043, frequencies=[{N=0.20321928408403966, G=0.3629914565004521, S=0.43378925941550817}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.9936124539028526, lnL=-12.684880632013689, frequencies=[{N=0.20189418000275752, G=0.3340180637339713, S=0.46408775626327126}, {N=2.3101719758815338E-7, G=0.9999985492458973, S=1.2197369052504845E-6}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:17.09 - site 92 complete.
+# Result{site=92, residues={F=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:17.174 - site 93 complete.
+# Result{site=93, residues={D=21, E=5}, models=[Model{name='WAG+ssF', parameters=2, rate=0.25941252361872413, lnL=-6.480194673941077, frequencies=[{D=0.9041665918723159, E=0.09583340812768429}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=1.8911180264072255E-4, lnL=-3.512153776158543, frequencies=[{D=0.9962434647748967, E=0.003756535225103314}, {D=4.5568970276775674E-5, E=0.9999544310297233}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:17.198 - site 94 complete.
+# Result{site=94, residues={S=6, T=20}, models=[Model{name='WAG+ssF', parameters=2, rate=1.2281959373503923, lnL=-12.108930863408956, frequencies=[{S=0.3480161422992561, T=0.651983857700744}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=1.403053816750116, lnL=-11.353662810278554, frequencies=[{S=0.3872644777306605, T=0.6127355222693396}, {S=1.3187049800587494E-6, T=0.99999868129502}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:17.198 - site 95 complete.
+# Result{site=95, residues={T=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:17.198 - site 96 complete.
+# Result{site=96, residues={K=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:17.287 - site 97 complete.
+# Result{site=97, residues={N=8, D=7, G=11}, models=[Model{name='WAG+ssF', parameters=3, rate=1.0847996585384552, lnL=-17.207492043083548, frequencies=[{N=0.43199197179848553, D=0.1783033106707238, G=0.38970471753079056}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=1.0856338325982935, lnL=-16.242456990936226, frequencies=[{N=0.5060403242898928, D=0.19465486197172066, G=0.2993048137383865}, {N=1.50380662565141E-5, D=0.12759526747395164, G=0.8723896944597919}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:17.287 - site 98 complete.
+# Result{site=98, residues={K=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:17.309 - site 99 complete.
+# Result{site=99, residues={Q=19, K=7}, models=[Model{name='WAG+ssF', parameters=2, rate=0.12956218142062426, lnL=-5.128878836666212, frequencies=[{Q=0.5890425793468863, K=0.41095742065311375}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.14843169321307442, lnL=-4.858203594872274, frequencies=[{Q=0.5625890802100555, K=0.43741091978994445}, {Q=0.9999972217994001, K=2.7782005999223038E-6}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:17.31 - site 100 complete.
+# Result{site=100, residues={V=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:18.289 - site 101 complete.
+# Result{site=101, residues={A=2, D=2, E=2, V=18}, models=[Model{name='WAG+ssF', parameters=4, rate=0.7914040028361156, lnL=-11.625738215002547, frequencies=[{A=0.10843312057374754, D=0.18129002979088887, E=0.2253173715212229, V=0.48495947811414075}], converged=true}, Model{name='WAG+lssF', parameters=7, rate=0.8139027073348787, lnL=-11.538194617576647, frequencies=[{A=0.11593579937607135, D=0.18188232711841534, E=0.23180945007852233, V=0.470372423426991}, {A=3.2287501446687456E-7, D=0.6634242530519158, E=0.3340202367237564, V=0.002555187349313422}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:18.289 - site 102 complete.
+# Result{site=102, residues={G=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:18.29 - site 103 complete.
+# Result{site=103, residues={N=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:18.377 - site 104 complete.
+# Result{site=104, residues={D=22, E=4}, models=[Model{name='WAG+ssF', parameters=2, rate=2.4590310119092464, lnL=-10.776415587347302, frequencies=[{D=0.8282168905953268, E=0.17178310940467317}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=2.894961604598253, lnL=-10.712196902860716, frequencies=[{D=0.8382859357957333, E=0.1617140642042666}, {D=0.7276895060346318, E=0.2723104939653683}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:18.762 - site 105 complete.
+# Result{site=105, residues={H=6, I=12, Y=2, V=3}, models=[Model{name='WAG+ssF', parameters=4, rate=8.759502725469858, lnL=-20.820413061305793, frequencies=[{H=0.16551455134488896, I=0.5899244123410351, Y=0.08425835535546929, V=0.16030268095860672}], converged=true}, Model{name='WAG+lssF', parameters=7, rate=8.236103347364526, lnL=-19.2593112119346, frequencies=[{H=0.20019941550318918, I=0.5068099794366627, Y=0.09707950024762618, V=0.19591110481252194}, {H=2.0061249426340374E-6, I=0.9999965224654334, Y=8.665393301057336E-7, V=6.048702940940723E-7}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:18.762 - site 106 complete.
+# Result{site=106, residues={Y=24}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.267 - site 107 complete.
+# Result{site=107, residues={A=4, C=2, E=7, S=6, V=5}, models=[Model{name='WAG+ssF', parameters=5, rate=1.0143580306006035, lnL=-22.15356150626891, frequencies=[{A=0.19492277374598174, C=0.2495587778581894, E=0.2028901337716893, S=0.1327266131147242, V=0.21990170150941546}], converged=true}, Model{name='WAG+lssF', parameters=9, rate=1.1100805174637336, lnL=-21.26218116998236, frequencies=[{A=0.22206989355830087, C=0.24396611100988774, E=0.15231606039340573, S=0.13744984408438285, V=0.24419809095402292}, {A=1.552175942204298E-6, C=5.732956799645274E-6, E=0.8649134088344103, S=0.1350793060199181, V=1.292967735308715E-11}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.268 - site 108 complete.
+# Result{site=108, residues={A=25}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.391 - site 109 complete.
+# Result{site=109, residues={N=18, S=6, Y=2}, models=[Model{name='WAG+ssF', parameters=3, rate=0.30070985432253083, lnL=-8.864138567546156, frequencies=[{N=0.6071103780457239, S=0.11096496411080845, Y=0.28192465784346765}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.16168193129068759, lnL=-5.713054954458389, frequencies=[{N=0.746650606043431, S=4.0566850122229746E-7, Y=0.2533489882880677}, {N=0.01720540613556934, S=0.982774166026827, Y=2.04278376037278E-5}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.413 - site 110 complete.
+# Result{site=110, residues={I=23, T=2}, models=[Model{name='WAG+ssF', parameters=2, rate=0.17726168036460876, lnL=-3.712712561529387, frequencies=[{I=0.7933796238031718, T=0.20662037619682816}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=0.19735123818363987, lnL=-3.598110102740488, frequencies=[{I=0.779785562803464, T=0.22021443719653586}, {I=0.9999997419500402, T=2.5804995997182194E-7}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.717 - site 111 complete.
+# Result{site=111, residues={A=5, C=10, P=4, V=6}, models=[Model{name='WAG+ssF', parameters=4, rate=0.4733318936953392, lnL=-13.125676126475836, frequencies=[{A=0.2672028702838675, C=0.2897128163247832, P=0.2953919554369022, V=0.14769235795444716}], converged=true}, Model{name='WAG+lssF', parameters=7, rate=0.35101583032247263, lnL=-10.25925975204841, frequencies=[{A=0.3170495725138698, C=0.3496200847135856, P=0.3333284014130634, V=1.9413594813247046E-6}, {A=0.025723985940926085, C=5.20595542106471E-5, P=1.7744155764886766E-10, V=0.9742239543274217}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.872 - site 112 complete.
+# Result{site=112, residues={R=3, K=17, S=6}, models=[Model{name='WAG+ssF', parameters=3, rate=0.4400273573486292, lnL=-9.956520713706817, frequencies=[{R=0.1952756678946712, K=0.4972578835309342, S=0.30746644857439465}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.35835276217214695, lnL=-6.653316076810314, frequencies=[{R=0.3429492035422226, K=0.6570507964577773, S=1.2800758465032727E-111}, {R=6.434228938439922E-7, K=0.03854840808993316, S=0.9614509484871729}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.873 - site 113 complete.
+# Result{site=113, residues={K=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.873 - site 114 complete.
+# Result{site=114, residues={R=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.873 - site 115 complete.
+# Result{site=115, residues={R=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.873 - site 116 complete.
+# Result{site=116, residues={Y=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.873 - site 117 complete.
+# Result{site=117, residues={R=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.915 - site 118 complete.
+# Result{site=118, residues={A=3, Q=23}, models=[Model{name='WAG+ssF', parameters=2, rate=4.047230329364538, lnL=-7.918715028846044, frequencies=[{A=0.0808486513227446, Q=0.9191513486772555}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=9.136812467430182, lnL=-6.313700935120115, frequencies=[{A=0.03953627689062481, Q=0.9604637231093751}, {A=0.422943141861207, Q=0.5770568581387929}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:19.96 - site 119 complete.
+# Result{site=119, residues={Q=3, Y=23}, models=[Model{name='WAG+ssF', parameters=2, rate=4.047230329364538, lnL=-7.918715028846057, frequencies=[{Q=0.0808486513227446, Y=0.9191513486772555}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=9.136812467430182, lnL=-6.313700935120107, frequencies=[{Q=0.03953627689062481, Y=0.9604637231093751}, {Q=0.422943141861207, Y=0.5770568581387929}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.002 - site 120 complete.
+# Result{site=120, residues={M=23, F=3}, models=[Model{name='WAG+ssF', parameters=2, rate=4.047230329364538, lnL=-7.9187150288460515, frequencies=[{M=0.9191513486772555, F=0.0808486513227446}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=9.136812467430182, lnL=-6.313700935120242, frequencies=[{M=0.9604637231093751, F=0.03953627689062481}, {M=0.5770568581387929, F=0.422943141861207}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.033 - site 121 complete.
+# Result{site=121, residues={N=23, D=3}, models=[Model{name='WAG+ssF', parameters=2, rate=4.047230329364538, lnL=-7.918715028846017, frequencies=[{N=0.9191513486772555, D=0.0808486513227446}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=9.136812467430182, lnL=-6.313700935120113, frequencies=[{N=0.9604637231093751, D=0.03953627689062481}, {N=0.5770568581387929, D=0.422943141861207}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.066 - site 122 complete.
+# Result{site=122, residues={R=23, Q=3}, models=[Model{name='WAG+ssF', parameters=2, rate=4.047230329364538, lnL=-7.918715028846018, frequencies=[{R=0.9191513486772555, Q=0.0808486513227446}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=9.136812467430182, lnL=-6.313700935120113, frequencies=[{R=0.9604637231093751, Q=0.03953627689062481}, {R=0.5770568581387929, Q=0.422943141861207}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.212 - site 123 complete.
+# Result{site=123, residues={R=12, K=11, V=3}, models=[Model{name='WAG+ssF', parameters=3, rate=0.14961652200461428, lnL=-23.713904922799898, frequencies=[{R=0.17457573823834235, K=0.06525708596318353, V=0.760167175798474}], converged=true}, Model{name='WAG+lssF', parameters=5, rate=0.2778729057119745, lnL=-20.50164491616591, frequencies=[{R=0.3502984893367361, K=0.24318058924866928, V=0.40652092141459456}, {R=0.07961746623847071, K=1.2251276126474905E-7, V=0.9203824112487681}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.212 - site 124 complete.
+# Result{site=124, residues={G=26}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.212 - site 125 complete.
+# Result{site=125, residues={G=23}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.212 - site 126 complete.
+# Result{site=126, residues={F=23}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.212 - site 127 complete.
+# Result{site=127, residues={N=23}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.212 - site 128 complete.
+# Result{site=128, residues={R=23}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.212 - site 129 complete.
+# Result{site=129, residues={P=23}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.212 - site 130 complete.
+# Result{site=130, residues={L=23}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.213 - site 131 complete.
+# Result{site=131, residues={D=23}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.274 - site 132 complete.
+# Result{site=132, residues={F=20, P=6}, models=[Model{name='WAG+ssF', parameters=2, rate=0.17203565663658082, lnL=-3.8203495040451867, frequencies=[{F=0.7930671379007279, P=0.20693286209927206}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=4.149506387291264E-4, lnL=-0.5914357723785153, frequencies=[{F=0.9947124898161721, P=0.005287510183827916}, {F=4.552190671156172E-5, P=0.9999544780932884}], converged=true}], lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.274 - site 133 complete.
+# Result{site=133, residues={I=25}, models=null, lrt=0.0, fdr=0.0}
+# 2022-01-31 16:36:20.305 - site 134 complete.
+# Result{site=134, residues={A=23, R=2}, models=[Model{name='WAG+ssF', parameters=2, rate=2.3386473993723627, lnL=-5.165341214560051, frequencies=[{A=0.9563809736330057, R=0.043619026366994426}], converged=true}, Model{name='WAG+lssF', parameters=3, rate=6.695154537468718, lnL=-2.1601196720904485, frequencies=[{A=0.9999999226060612, R=7.739393891197938E-8}, {A=0.5701684354075305, R=0.4298315645924695}], converged=true}], lrt=0.0, fdr=0.0}
+
+# --------------------------------------------------------------------------------
+
+LrtResults:
+#   Site,  delta lnL,  dof, LRT,       FDR
+- [   17,   6.167380,  1,   0.0004446, 0.0391249 ]
+- [   93,   2.968041,  1,   0.0148340, 0.1864841 ]
+- [  134,   3.005222,  1,   0.0142215, 0.2085814 ]
+- [   24,   3.132191,  1,   0.0123189, 0.2168128 ]
+- [  132,   3.228914,  1,   0.0110465, 0.2430222 ]
+- [  120,   1.605014,  1,   0.0731882, 0.2683568 ]
+- [   18,   2.572507,  2,   0.0763439, 0.2687305 ]
+- [  121,   1.605014,  1,   0.0731882, 0.2800245 ]
+- [   55,   3.345143,  1,   0.0096940, 0.2843562 ]
+- [  122,   1.605014,  1,   0.0731882, 0.2927529 ]
+- [   71,   1.456068,  1,   0.0879154, 0.2975597 ]
+- [  118,   1.605014,  1,   0.0731882, 0.3066935 ]
+- [   65,   3.090355,  3,   0.1031418, 0.3129819 ]
+- [  109,   3.151084,  2,   0.0428057, 0.3139086 ]
+- [   32,   3.058885,  2,   0.0469400, 0.3177478 ]
+- [   68,   2.981688,  2,   0.0507072, 0.3187309 ]
+- [  119,   1.605014,  1,   0.0731882, 0.3220282 ]
+- [   66,   3.092177,  3,   0.1029775, 0.3236436 ]
+- [   59,   2.305337,  2,   0.0997251, 0.3250301 ]
+- [   77,   3.191160,  2,   0.0411242, 0.3289933 ]
+- [   54,   3.571324,  3,   0.0674875, 0.3299387 ]
+- [   67,   5.804737,  6,   0.0712700, 0.3300925 ]
+- [   21,   1.695472,  1,   0.0655554, 0.3393457 ]
+- [   39,   1.798129,  1,   0.0579098, 0.3397374 ]
+- [  123,   3.212260,  2,   0.0402655, 0.3543365 ]
+- [  111,   2.866416,  3,   0.1253572, 0.3558527 ]
+- [   80,   1.193233,  1,   0.1223900, 0.3590107 ]
+- [   45,   1.696358,  1,   0.0654850, 0.3601675 ]
+- [   56,   3.221649,  2,   0.0398892, 0.3900282 ]
+- [  112,   3.303205,  2,   0.0367652, 0.4044168 ]
+- [   53,   4.658152,  2,   0.0094840, 0.4172948 ]
+- [   74,   3.227410,  4,   0.1676595, 0.4610636 ]
+- [   63,   2.333790,  3,   0.1978208, 0.5120067 ]
+- [   75,   2.854647,  4,   0.2219357, 0.5139562 ]
+- [   44,   0.707947,  1,   0.2340803, 0.5149768 ]
+- [   58,   1.551266,  2,   0.2119794, 0.5181718 ]
+- [   47,   1.575840,  2,   0.2068337, 0.5200390 ]
+- [   73,   0.718223,  1,   0.2307152, 0.5205881 ]
+- [   94,   0.755268,  1,   0.2190573, 0.5210011 ]
+- [    9,   0.830279,  1,   0.1975279, 0.5267411 ]
+- [   72,   1.335705,  2,   0.2629726, 0.5381765 ]
+- [   52,   1.338731,  2,   0.2621782, 0.5493257 ]
+- [   36,   0.596215,  1,   0.2748401, 0.5496802 ]
+- [   57,   0.580021,  1,   0.2814566, 0.5504041 ]
+- [   69,   1.340512,  2,   0.2617115, 0.5617223 ]
+- [   48,   0.960121,  2,   0.3828465, 0.5710253 ]
+- [   15,   0.354189,  1,   0.3999831, 0.5770248 ]
+- [   97,   0.965035,  2,   0.3809698, 0.5780232 ]
+- [   60,   0.434905,  1,   0.3510082, 0.5828060 ]
+- [   79,   0.973594,  2,   0.3777229, 0.5831512 ]
+- [   20,   0.357587,  1,   0.3977312, 0.5833391 ]
+- [   46,   1.605760,  3,   0.3601484, 0.5869085 ]
+- [   42,   1.057838,  2,   0.3472055, 0.5875785 ]
+- [   70,   1.095965,  2,   0.3342170, 0.5882220 ]
+- [   76,   0.390325,  1,   0.3769424, 0.5923380 ]
+- [   86,   1.068685,  2,   0.3434600, 0.5926369 ]
+- [   61,   0.316726,  1,   0.4260920, 0.5951762 ]
+- [   43,   0.470484,  1,   0.3320290, 0.5962969 ]
+- [  105,   1.561102,  3,   0.3731648, 0.5970637 ]
+- [   14,   0.323661,  1,   0.4210714, 0.5976498 ]
+- [   81,   0.303270,  1,   0.4360936, 0.5996288 ]
+- [   49,   2.302587,  4,   0.3302581, 0.6054731 ]
+- [   23,   1.761190,  3,   0.3178710, 0.6081011 ]
+- [   62,   1.119752,  2,   0.3263607, 0.6110584 ]
+- [   99,   0.270675,  1,   0.4618736, 0.6158314 ]
+- [   13,   0.278485,  1,   0.4554839, 0.6166552 ]
+- [   91,   0.733011,  2,   0.4804600, 0.6217718 ]
+- [   22,   0.255163,  1,   0.4749975, 0.6238773 ]
+- [   10,   0.200450,  1,   0.5266251, 0.6716377 ]
+- [   33,   0.182570,  1,   0.5456658, 0.6859799 ]
+- [   12,   0.159586,  1,   0.5721061, 0.6992408 ]
+- [   82,   0.515993,  2,   0.5969076, 0.7003715 ]
+- [   34,   0.162224,  1,   0.5689472, 0.7051740 ]
+- [   84,   0.149029,  1,   0.5851029, 0.7053295 ]
+- [   83,   0.141401,  1,   0.5948702, 0.7074132 ]
+- [  110,   0.114602,  1,   0.6321140, 0.7319215 ]
+- [   51,   0.836402,  3,   0.6429970, 0.7348538 ]
+- [   85,   0.080477,  1,   0.6882802, 0.7666918 ]
+- [    7,   0.081588,  1,   0.6862482, 0.7742288 ]
+- [  104,   0.064219,  1,   0.7200578, 0.7920635 ]
+- [  107,   0.891380,  4,   0.7756348, 0.8426650 ]
+- [   37,   1.098420,  5,   0.8212923, 0.8813868 ]
+- [   90,   0.644291,  4,   0.8633099, 0.9044199 ]
+- [   11,   0.015606,  1,   0.8597704, 0.9115638 ]
+- [   64,   0.583616,  4,   0.8834637, 0.9146448 ]
+- [   40,   0.093165,  2,   0.9110431, 0.9322301 ]
+- [   41,   0.056128,  2,   0.9454177, 0.9562846 ]
+- [  101,   0.087544,  3,   0.9815072, 0.9815072 ]
+
+FullResults:
+# Site, WAG+ssF params, WAG+ssF lnL, WAG+lssF params, WAG+lssF params, delta lnL, dof, LRT, FDR
+- [    1,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [    2,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [    3,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [    4,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [    5,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [    6,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [    7,  2,  -10.265840,  3,  -10.184251,   0.081588,  1, 0.6862482, 0.7742288 ]
+- [    8,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [    9,  2,  -10.223842,  3,   -9.393562,   0.830279,  1, 0.1975279, 0.5267411 ]
+- [   10,  2,   -7.068628,  3,   -6.868178,   0.200450,  1, 0.5266251, 0.6716377 ]
+- [   11,  2,  -11.316391,  3,  -11.300785,   0.015606,  1, 0.8597704, 0.9115638 ]
+- [   12,  2,   -4.927983,  3,   -4.768398,   0.159586,  1, 0.5721061, 0.6992408 ]
+- [   13,  2,   -6.230069,  3,   -5.951585,   0.278485,  1, 0.4554839, 0.6166552 ]
+- [   14,  2,   -6.555142,  3,   -6.231481,   0.323661,  1, 0.4210714, 0.5976498 ]
+- [   15,  2,   -7.413777,  3,   -7.059589,   0.354189,  1, 0.3999831, 0.5770248 ]
+- [   16,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   17,  2,   -6.225882,  3,   -0.058502,   6.167380,  1, 0.0004446, 0.0391249 ]
+- [   18,  3,  -12.731899,  5,  -10.159392,   2.572507,  2, 0.0763439, 0.2687305 ]
+- [   19,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   20,  2,   -6.297888,  3,   -5.940300,   0.357587,  1, 0.3977312, 0.5833391 ]
+- [   21,  2,   -6.301733,  3,   -4.606262,   1.695472,  1, 0.0655554, 0.3393457 ]
+- [   22,  2,   -6.093909,  3,   -5.838746,   0.255163,  1, 0.4749975, 0.6238773 ]
+- [   23,  4,  -18.868154,  7,  -17.106964,   1.761190,  3, 0.3178710, 0.6081011 ]
+- [   24,  2,   -3.723443,  3,   -0.591252,   3.132191,  1, 0.0123189, 0.2168128 ]
+- [   25,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   26,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   27,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   28,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   29,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   30,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   31,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   32,  3,   -8.165281,  5,   -5.106396,   3.058885,  2, 0.0469400, 0.3177478 ]
+- [   33,  2,   -7.966341,  3,   -7.783772,   0.182570,  1, 0.5456658, 0.6859799 ]
+- [   34,  2,   -5.962136,  3,   -5.799912,   0.162224,  1, 0.5689472, 0.7051740 ]
+- [   35,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   36,  2,   -8.295849,  3,   -7.699635,   0.596215,  1, 0.2748401, 0.5496802 ]
+- [   37,  6,  -26.759646, 11,  -25.661226,   1.098420,  5, 0.8212923, 0.8813868 ]
+- [   38,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   39,  2,   -8.049204,  3,   -6.251075,   1.798129,  1, 0.0579098, 0.3397374 ]
+- [   40,  3,  -13.063430,  5,  -12.970265,   0.093165,  2, 0.9110431, 0.9322301 ]
+- [   41,  3,  -12.497832,  5,  -12.441703,   0.056128,  2, 0.9454177, 0.9562846 ]
+- [   42,  3,  -14.627924,  5,  -13.570085,   1.057838,  2, 0.3472055, 0.5875785 ]
+- [   43,  2,   -8.616975,  3,   -8.146491,   0.470484,  1, 0.3320290, 0.5962969 ]
+- [   44,  2,  -10.746665,  3,  -10.038718,   0.707947,  1, 0.2340803, 0.5149768 ]
+- [   45,  2,   -6.395676,  3,   -4.699318,   1.696358,  1, 0.0654850, 0.3601675 ]
+- [   46,  4,  -19.010391,  7,  -17.404631,   1.605760,  3, 0.3601484, 0.5869085 ]
+- [   47,  3,  -14.883528,  5,  -13.307688,   1.575840,  2, 0.2068337, 0.5200390 ]
+- [   48,  3,  -12.804007,  5,  -11.843886,   0.960121,  2, 0.3828465, 0.5710253 ]
+- [   49,  5,  -25.698725,  9,  -23.396138,   2.302587,  4, 0.3302581, 0.6054731 ]
+- [   50,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   51,  4,  -17.305919,  7,  -16.469517,   0.836402,  3, 0.6429970, 0.7348538 ]
+- [   52,  3,  -13.535246,  5,  -12.196515,   1.338731,  2, 0.2621782, 0.5493257 ]
+- [   53,  3,  -14.199901,  5,   -9.541749,   4.658152,  2, 0.0094840, 0.4172948 ]
+- [   54,  4,  -21.220410,  7,  -17.649086,   3.571324,  3, 0.0674875, 0.3299387 ]
+- [   55,  2,   -9.477516,  3,   -6.132372,   3.345143,  1, 0.0096940, 0.2843562 ]
+- [   56,  3,  -11.966305,  5,   -8.744657,   3.221649,  2, 0.0398892, 0.3900282 ]
+- [   57,  2,   -5.263343,  3,   -4.683322,   0.580021,  1, 0.2814566, 0.5504041 ]
+- [   58,  3,  -11.393295,  5,   -9.842029,   1.551266,  2, 0.2119794, 0.5181718 ]
+- [   59,  3,  -15.568484,  5,  -13.263147,   2.305337,  2, 0.0997251, 0.3250301 ]
+- [   60,  2,   -5.012674,  3,   -4.577770,   0.434905,  1, 0.3510082, 0.5828060 ]
+- [   61,  2,   -3.809367,  3,   -3.492641,   0.316726,  1, 0.4260920, 0.5951762 ]
+- [   62,  3,   -8.558602,  5,   -7.438850,   1.119752,  2, 0.3263607, 0.6110584 ]
+- [   63,  4,  -18.219667,  7,  -15.885877,   2.333790,  3, 0.1978208, 0.5120067 ]
+- [   64,  5,  -25.666619,  9,  -25.083004,   0.583616,  4, 0.8834637, 0.9146448 ]
+- [   65,  4,  -16.130066,  7,  -13.039711,   3.090355,  3, 0.1031418, 0.3129819 ]
+- [   66,  4,  -15.914545,  7,  -12.822368,   3.092177,  3, 0.1029775, 0.3236436 ]
+- [   67,  7,  -35.636841, 13,  -29.832104,   5.804737,  6, 0.0712700, 0.3300925 ]
+- [   68,  3,   -9.847348,  5,   -6.865660,   2.981688,  2, 0.0507072, 0.3187309 ]
+- [   69,  3,  -15.165592,  5,  -13.825079,   1.340512,  2, 0.2617115, 0.5617223 ]
+- [   70,  3,  -14.413948,  5,  -13.317983,   1.095965,  2, 0.3342170, 0.5882220 ]
+- [   71,  2,   -5.791716,  3,   -4.335648,   1.456068,  1, 0.0879154, 0.2975597 ]
+- [   72,  3,  -19.773867,  5,  -18.438162,   1.335705,  2, 0.2629726, 0.5381765 ]
+- [   73,  2,   -8.012887,  3,   -7.294664,   0.718223,  1, 0.2307152, 0.5205881 ]
+- [   74,  5,  -23.666077,  9,  -20.438667,   3.227410,  4, 0.1676595, 0.4610636 ]
+- [   75,  5,  -19.980197,  9,  -17.125550,   2.854647,  4, 0.2219357, 0.5139562 ]
+- [   76,  2,   -7.711565,  3,   -7.321240,   0.390325,  1, 0.3769424, 0.5923380 ]
+- [   77,  3,   -9.865493,  5,   -6.674333,   3.191160,  2, 0.0411242, 0.3289933 ]
+- [   78,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   79,  3,  -16.056932,  5,  -15.083337,   0.973594,  2, 0.3777229, 0.5831512 ]
+- [   80,  2,   -9.261926,  3,   -8.068693,   1.193233,  1, 0.1223900, 0.3590107 ]
+- [   81,  2,   -6.444167,  3,   -6.140897,   0.303270,  1, 0.4360936, 0.5996288 ]
+- [   82,  3,   -9.771194,  5,   -9.255201,   0.515993,  2, 0.5969076, 0.7003715 ]
+- [   83,  2,   -9.423488,  3,   -9.282087,   0.141401,  1, 0.5948702, 0.7074132 ]
+- [   84,  2,   -4.813184,  3,   -4.664155,   0.149029,  1, 0.5851029, 0.7053295 ]
+- [   85,  2,  -14.149662,  3,  -14.069185,   0.080477,  1, 0.6882802, 0.7666918 ]
+- [   86,  3,  -12.522125,  5,  -11.453440,   1.068685,  2, 0.3434600, 0.5926369 ]
+- [   87,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   88,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   89,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   90,  5,  -18.880233,  9,  -18.235943,   0.644291,  4, 0.8633099, 0.9044199 ]
+- [   91,  3,  -13.417892,  5,  -12.684881,   0.733011,  2, 0.4804600, 0.6217718 ]
+- [   92,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   93,  2,   -6.480195,  3,   -3.512154,   2.968041,  1, 0.0148340, 0.1864841 ]
+- [   94,  2,  -12.108931,  3,  -11.353663,   0.755268,  1, 0.2190573, 0.5210011 ]
+- [   95,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   96,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   97,  3,  -17.207492,  5,  -16.242457,   0.965035,  2, 0.3809698, 0.5780232 ]
+- [   98,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [   99,  2,   -5.128879,  3,   -4.858204,   0.270675,  1, 0.4618736, 0.6158314 ]
+- [  100,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  101,  4,  -11.625738,  7,  -11.538195,   0.087544,  3, 0.9815072, 0.9815072 ]
+- [  102,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  103,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  104,  2,  -10.776416,  3,  -10.712197,   0.064219,  1, 0.7200578, 0.7920635 ]
+- [  105,  4,  -20.820413,  7,  -19.259311,   1.561102,  3, 0.3731648, 0.5970637 ]
+- [  106,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  107,  5,  -22.153562,  9,  -21.262181,   0.891380,  4, 0.7756348, 0.8426650 ]
+- [  108,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  109,  3,   -8.864139,  5,   -5.713055,   3.151084,  2, 0.0428057, 0.3139086 ]
+- [  110,  2,   -3.712713,  3,   -3.598110,   0.114602,  1, 0.6321140, 0.7319215 ]
+- [  111,  4,  -13.125676,  7,  -10.259260,   2.866416,  3, 0.1253572, 0.3558527 ]
+- [  112,  3,   -9.956521,  5,   -6.653316,   3.303205,  2, 0.0367652, 0.4044168 ]
+- [  113,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  114,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  115,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  116,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  117,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  118,  2,   -7.918715,  3,   -6.313701,   1.605014,  1, 0.0731882, 0.3066935 ]
+- [  119,  2,   -7.918715,  3,   -6.313701,   1.605014,  1, 0.0731882, 0.3220282 ]
+- [  120,  2,   -7.918715,  3,   -6.313701,   1.605014,  1, 0.0731882, 0.2683568 ]
+- [  121,  2,   -7.918715,  3,   -6.313701,   1.605014,  1, 0.0731882, 0.2800245 ]
+- [  122,  2,   -7.918715,  3,   -6.313701,   1.605014,  1, 0.0731882, 0.2927529 ]
+- [  123,  3,  -23.713905,  5,  -20.501645,   3.212260,  2, 0.0402655, 0.3543365 ]
+- [  124,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  125,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  126,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  127,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  128,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  129,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  130,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  131,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  132,  2,   -3.820350,  3,   -0.591436,   3.228914,  1, 0.0110465, 0.2430222 ]
+- [  133,  NA,         NA, NA,          NA,         NA, NA,        NA,        NA ]
+- [  134,  2,   -5.165341,  3,   -2.160120,   3.005222,  1, 0.0142215, 0.2085814 ]
+
+# Misc.
+ConservedPositions:
+    Count: 46
+    Sites: [1, 2, 3, 4, 5, 6, 8, 16, 19, 25, 26, 27, 28, 29, 30, 31, 35, 38, 50, 78, 87, 88,
+  89, 92, 95, 96, 98, 100, 102, 103, 106, 108, 113, 114, 115, 116, 117, 124, 125,
+  126, 127, 128, 129, 130, 131, 133]
+
+
+HomogeneousFrequencies:
+# Site, A, R, N, D, C, Q, E, G, H, I, L, K, M, F, P, S, T, W, Y, V
+- [ 7, 0.0, 0.5978383793684642, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4021616206315358, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 9, 0.0, 0.0, 0.0, 0.4123339219475139, 0.0, 0.0, 0.5876660780524862, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 10, 0.0, 0.8404060858412863, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1595939141587137, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 11, 0.0, 0.7769479066991545, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2230520933008455, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 12, 0.0, 0.7882786935178674, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2117213064821326, 0.0, 0.0, 0.0, 0.0 ]
+- [ 13, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1529493368635515, 0.0, 0.0, 0.0, 0.8470506631364485, 0.0, 0.0, 0.0, 0.0 ]
+- [ 14, 0.0, 0.8940655816792833, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1059344183207168, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 15, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.24956485742159626, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7504351425784037, 0.0, 0.0, 0.0, 0.0 ]
+- [ 17, 0.0, 0.6693681051291802, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3306318948708198, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 18, 0.0, 0.16979590709347586, 0.0, 0.536016772147563, 0.0, 0.0, 0.29418732075896115, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 20, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8783371111865346, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.12166288881346543, 0.0, 0.0, 0.0 ]
+- [ 21, 0.0, 0.7780356927410084, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2219643072589916, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 22, 0.0, 0.8117488398041909, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.188251160195809, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 23, 0.0, 0.1119041413021177, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.586541959459393, 0.0, 0.0, 0.1307202131970333, 0.0, 0.0, 0.0, 0.170833686041456, 0.0, 0.0, 0.0, 0.0 ]
+- [ 24, 0.0, 0.7861046460973662, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.21389535390263392, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 32, 0.0, 0.4433170079282329, 0.0, 0.4483721391774704, 0.0, 0.0, 0.0, 0.0, 0.10831085289429664, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 33, 0.0, 0.5027954365769787, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4972045634230214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 34, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6011224339398659, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3988775660601342, 0.0, 0.0, 0.0, 0.0 ]
+- [ 36, 0.0, 0.8301992290776998, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1698007709223002, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 37, 0.0, 0.2980458352145288, 0.10468783141242184, 0.14997728198434152, 0.0, 0.0, 0.11832991763118156, 0.0, 0.14672878459610436, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.18223034916142197, 0.0, 0.0, 0.0, 0.0 ]
+- [ 39, 0.0, 0.46168032397373854, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5383196760262614, 0.0, 0.0, 0.0, 0.0 ]
+- [ 40, 0.0, 0.47703199297951715, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.22921383289350644, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.29375417412697635, 0.0 ]
+- [ 41, 0.0, 0.0, 0.0, 0.25433833655957017, 0.0, 0.0, 0.14605652207949887, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5996051413609309, 0.0, 0.0, 0.0, 0.0 ]
+- [ 42, 0.0, 0.7328617164345455, 0.0, 0.0, 0.0, 0.0, 0.0, 0.13659910201201525, 0.0, 0.0, 0.0, 0.13053918155343935, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 43, 0.0, 0.7641338138822881, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.23586618611771185, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 44, 0.0, 0.0, 0.0, 0.6483822315187585, 0.0, 0.0, 0.3516177684812415, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 45, 0.0, 0.7349837696904075, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2650162303095925, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 46, 0.0, 0.5807733555096, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1129799048768397, 0.0, 0.0, 0.0, 0.14717419180716237, 0.0, 0.0, 0.0, 0.159072547806398, 0.0, 0.0, 0.0, 0.0 ]
+- [ 47, 0.0, 0.5743575736303828, 0.0, 0.24748894916478933, 0.0, 0.0, 0.17815347720482785, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 48, 0.0, 0.4756126895843339, 0.0, 0.0, 0.0, 0.0, 0.0, 0.41669359580869564, 0.0, 0.0, 0.0, 0.10769371460697046, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 49, 0.0, 0.0, 0.0, 0.5106878138690308, 0.0, 0.11492368200887645, 0.08815103017981901, 0.17775018699918446, 0.10848728694308922, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 51, 0.0, 0.0, 0.0, 0.35372873573792435, 0.0, 0.0, 0.12368819722575698, 0.19928302713441207, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.32330003990190653, 0.0, 0.0, 0.0, 0.0 ]
+- [ 52, 0.0, 0.6654029496802621, 0.0, 0.0, 0.0, 0.10603830134308484, 0.0, 0.22855874897665296, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 53, 0.0, 0.0, 0.0, 0.14064263542466848, 0.0, 0.0, 0.5305158083372628, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3288415562380688, 0.0, 0.0, 0.0, 0.0 ]
+- [ 54, 0.0, 0.0, 0.0, 0.3303607173207622, 0.0, 0.0, 0.443573941051571, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1564691843585638, 0.06959615726910304, 0.0, 0.0, 0.0 ]
+- [ 55, 0.0, 0.0, 0.0, 0.3944257588697775, 0.0, 0.0, 0.6055742411302225, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 56, 0.0, 0.0, 0.0, 0.38126499512758133, 0.0, 0.0, 0.2632379574332808, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3554970474391378, 0.0, 0.0, 0.0 ]
+- [ 57, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7718121109439058, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.22818788905609427 ]
+- [ 58, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1939616852881905, 0.5329702502231101, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.27306806448869936 ]
+- [ 59, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.320756249099548, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.36480112710224755, 0.0, 0.0, 0.3144426237982044 ]
+- [ 60, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6904181581584021, 0.0, 0.0, 0.0, 0.0, 0.3095818418415979, 0.0 ]
+- [ 61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5924003011319686, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.40759969886803127, 0.0, 0.0, 0.0, 0.0 ]
+- [ 62, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3077081195764272, 0.0, 0.0, 0.0, 0.3549331737558111, 0.0, 0.0, 0.0, 0.3373587066677617 ]
+- [ 63, 0.0, 0.0, 0.0, 0.0, 0.0, 0.34437938998516904, 0.15683372427742462, 0.0, 0.0, 0.23921176185320173, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2595751238842045 ]
+- [ 64, 0.0, 0.0, 0.15121191379863075, 0.15853286975628128, 0.0, 0.1336367653124121, 0.40523725046406345, 0.0, 0.0, 0.0, 0.0, 0.15138120066861235, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 65, 0.20874322049135385, 0.20612569167405895, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.34489960119264546, 0.0, 0.0, 0.24023148664194174, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 66, 0.14726154172860903, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.11557084718907715, 0.0, 0.0, 0.5658714485383601, 0.0, 0.1712961625439537, 0.0, 0.0, 0.0 ]
+- [ 67, 0.10751686279724663, 0.0, 0.2499201900909952, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1455517920465033, 0.0, 0.12619569352812154, 0.0, 0.0, 0.1888268870851436, 0.0, 0.06510537022706556, 0.0, 0.0, 0.11688320422492415 ]
+- [ 68, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.12416601744525685, 0.15334165865467497, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7224923239000681 ]
+- [ 69, 0.0, 0.0, 0.0, 0.2341029601888723, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3471806365418512, 0.4187164032692764, 0.0, 0.0, 0.0 ]
+- [ 70, 0.12787595706210036, 0.0, 0.0, 0.0965300859332084, 0.0, 0.0, 0.7755939570046911, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 71, 0.27163551440425265, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7283644855957473, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 72, 0.0, 0.0, 0.0, 0.24248652363506207, 0.0, 0.27732923654407743, 0.48018423982086056, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 73, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2542228234733653, 0.7457771765266347, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 74, 0.13045882293447106, 0.0, 0.0, 0.0, 0.0, 0.3147469312296866, 0.15174800859302792, 0.0, 0.0, 0.0, 0.0, 0.17504278258160222, 0.0, 0.0, 0.0, 0.22800345466121227, 0.0, 0.0, 0.0, 0.0 ]
+- [ 75, 0.3723937315530504, 0.0, 0.1478001801891573, 0.0, 0.0, 0.0, 0.1391143704092143, 0.17488355539520062, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.16580816245337748, 0.0, 0.0, 0.0, 0.0 ]
+- [ 76, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.19544062898229023, 0.0, 0.8045593710177097, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 77, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7410608407790225, 0.14557358879417084, 0.11336557042680676, 0.0, 0.0, 0.0 ]
+- [ 79, 0.0, 0.0, 0.0, 0.3970309469964318, 0.0, 0.0, 0.2190429213278904, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3839261316756778, 0.0, 0.0, 0.0, 0.0 ]
+- [ 80, 0.0, 0.0, 0.0, 0.12227552835179573, 0.0, 0.0, 0.8777244716482042, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 81, 0.27864214326336584, 0.0, 0.0, 0.0, 0.0, 0.7213578567366342, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 82, 0.0, 0.0, 0.0, 0.13574870273203227, 0.0, 0.13433515387150988, 0.7299161433964578, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 83, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4265424195143822, 0.0, 0.5734575804856178, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 84, 0.09996027585614022, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9000397241438598, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 85, 0.0, 0.3298071993902976, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6701928006097023, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 86, 0.13182033255806513, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.32123895785667056, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5469407095852642 ]
+- [ 90, 0.10087432515873097, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3930201830635312, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.15213761671601103, 0.12062864955021083, 0.0, 0.0, 0.23333922551151584 ]
+- [ 91, 0.0, 0.0, 0.20321928408403966, 0.0, 0.0, 0.0, 0.0, 0.3629914565004521, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.43378925941550817, 0.0, 0.0, 0.0, 0.0 ]
+- [ 93, 0.0, 0.0, 0.0, 0.9041665918723159, 0.0, 0.0, 0.09583340812768429, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 94, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3480161422992561, 0.651983857700744, 0.0, 0.0, 0.0 ]
+- [ 97, 0.0, 0.0, 0.43199197179848553, 0.1783033106707238, 0.0, 0.0, 0.0, 0.38970471753079056, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 99, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5890425793468863, 0.0, 0.0, 0.0, 0.0, 0.0, 0.41095742065311375, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 101, 0.10843312057374754, 0.0, 0.0, 0.18129002979088887, 0.0, 0.0, 0.2253173715212229, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.48495947811414075 ]
+- [ 104, 0.0, 0.0, 0.0, 0.8282168905953268, 0.0, 0.0, 0.17178310940467317, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 105, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.16551455134488896, 0.5899244123410351, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.08425835535546929, 0.16030268095860672 ]
+- [ 107, 0.19492277374598174, 0.0, 0.0, 0.0, 0.2495587778581894, 0.0, 0.2028901337716893, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1327266131147242, 0.0, 0.0, 0.0, 0.21990170150941546 ]
+- [ 109, 0.0, 0.0, 0.6071103780457239, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.11096496411080845, 0.0, 0.0, 0.28192465784346765, 0.0 ]
+- [ 110, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7933796238031718, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.20662037619682816, 0.0, 0.0, 0.0 ]
+- [ 111, 0.2672028702838675, 0.0, 0.0, 0.0, 0.2897128163247832, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2953919554369022, 0.0, 0.0, 0.0, 0.0, 0.14769235795444716 ]
+- [ 112, 0.0, 0.1952756678946712, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4972578835309342, 0.0, 0.0, 0.0, 0.30746644857439465, 0.0, 0.0, 0.0, 0.0 ]
+- [ 118, 0.0808486513227446, 0.0, 0.0, 0.0, 0.0, 0.9191513486772555, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 119, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0808486513227446, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9191513486772555, 0.0 ]
+- [ 120, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9191513486772555, 0.0808486513227446, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 121, 0.0, 0.0, 0.9191513486772555, 0.0808486513227446, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 122, 0.0, 0.9191513486772555, 0.0, 0.0, 0.0, 0.0808486513227446, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 123, 0.0, 0.17457573823834235, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.06525708596318353, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.760167175798474 ]
+- [ 132, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7930671379007279, 0.20693286209927206, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 134, 0.9563809736330057, 0.043619026366994426, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+
+HomogeneousRates: [0.6685243309475482, 0.779826644808054, 0.3164228508248925, 0.9089850038290024, 0.24009571596980095,
+  0.6297654416412115, 1.2318945731967688, 0.336088398238644, 0.6338329031132162, 8.65692034262187,
+  1.256202076561749, 0.4844358107075095, 0.44271168605796263, 2.0162594123874116,
+  0.1934119136758397, 0.3412690628094242, 0.6327834644743657, 0.3669846747070551,
+  2.221463829278946, 1.4170394708976763, 0.4473377820686437, 1.1382857256983412, 0.7475935405000729,
+  6.387029164795139, 0.6698314473032951, 1.1505313229281455, 0.44097014371072873,
+  4.1318877091868025, 1.1975965889339681, 0.8754892430240004, 7.781977695944685, 3.4081238487960386,
+  5.1296517163019555, 3.7587903837756693, 31.57599227818823, 1.94270992372185, 0.7187737049447845,
+  0.8912206590175629, 1.7533505122959294, 1.7355930513189608, 0.5082505988712003,
+  0.26861234195530415, 0.9942535900678817, 8.980255559562895, 2.461747514338981, 1.009834755188101,
+  1.750808337259507, 6.541390100861864, 0.9382334675744162, 3.3354258998945037, 3.063675860467618,
+  0.5036349662196957, 2.6983852878502934, 0.49490865368755765, 2.046865910936722,
+  1.6514602893954398, 0.8129742164164782, 0.562845039490371, 0.8856323466205893, 0.9059521020390093,
+  0.3655670151823508, 0.5434780128593566, 0.3653593217022717, 0.2941416800022125,
+  1.6144469822756946, 0.794490597944939, 0.46281197482125014, 0.8425379290706636,
+  0.25941252361872413, 1.2281959373503923, 1.0847996585384552, 0.12956218142062426,
+  0.7914040028361156, 2.4590310119092464, 8.759502725469858, 1.0143580306006035, 0.30070985432253083,
+  0.17726168036460876, 0.4733318936953392, 0.4400273573486292, 4.047230329364538,
+  4.047230329364538, 4.047230329364538, 4.047230329364538, 4.047230329364538, 0.14961652200461428,
+  0.17203565663658082, 2.3386473993723627]
+
+
+NonHomogeneousFrequencies_Sl:
+# Site, A, R, N, D, C, Q, E, G, H, I, L, K, M, F, P, S, T, W, Y, V
+- [ 7, 0.0, 0.5673595983843436, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4326404016156563, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 9, 0.0, 0.0, 0.0, 0.31605024346229205, 0.0, 0.0, 0.683949756537708, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 10, 0.0, 0.8180948686033211, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.18190513139667888, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 11, 0.0, 0.7689588305355105, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2310411694644896, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 12, 0.0, 0.7753024176004121, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2246975823995879, 0.0, 0.0, 0.0, 0.0 ]
+- [ 13, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.17000753154101683, 0.0, 0.0, 0.0, 0.8299924684589831, 0.0, 0.0, 0.0, 0.0 ]
+- [ 14, 0.0, 0.8802007193117491, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.11979928068825092, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 15, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2914231707598702, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7085768292401298, 0.0, 0.0, 0.0, 0.0 ]
+- [ 17, 0.0, 0.9800674213241526, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.019932578675847426, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 18, 0.0, 2.434968517968515E-8, 0.0, 0.6269447563347894, 0.0, 0.0, 0.3730552193155253, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 20, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8599702485405059, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.14002975145949403, 0.0, 0.0, 0.0 ]
+- [ 21, 0.0, 0.8988472661599218, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.10115273384007811, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 22, 0.0, 0.7929508930914198, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2070491069085802, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 23, 0.0, 0.11327648081162431, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6630770521447399, 0.0, 0.0, 0.1345903358760587, 0.0, 0.0, 0.0, 0.08905613116757703, 0.0, 0.0, 0.0, 0.0 ]
+- [ 24, 0.0, 0.9946115560180551, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.005388443981945019, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 32, 0.0, 0.4960591504561774, 0.0, 0.5039408456087362, 0.0, 0.0, 0.0, 0.0, 3.935086369352386E-9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 33, 0.0, 0.4489763908858487, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5510236091141514, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 34, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6430888322419399, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3569111677580601, 0.0, 0.0, 0.0, 0.0 ]
+- [ 36, 0.0, 0.80219301010445, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.19780698989554998, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 37, 0.0, 0.2828500627025229, 0.11846867594140606, 0.10889547719866126, 0.0, 0.0, 0.1565604038149484, 0.0, 0.14845448650452744, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.184770893837934, 0.0, 0.0, 0.0, 0.0 ]
+- [ 39, 0.0, 0.3094342526730893, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6905657473269107, 0.0, 0.0, 0.0, 0.0 ]
+- [ 40, 0.0, 0.46357151689822085, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.23647117149725944, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.29995731160451977, 0.0 ]
+- [ 41, 0.0, 0.0, 0.0, 0.24809062936964657, 0.0, 0.0, 0.14615712635558334, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.60575224427477, 0.0, 0.0, 0.0, 0.0 ]
+- [ 42, 0.0, 0.6827002553937679, 0.0, 0.0, 0.0, 0.0, 0.0, 0.15776240035969769, 0.0, 0.0, 0.0, 0.15953734424653448, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 43, 0.0, 0.7289913145265662, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.27100868547343393, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 44, 0.0, 0.0, 0.0, 0.6120034924733851, 0.0, 0.0, 0.3879965075266148, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 45, 0.0, 0.8945421361741205, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.10545786382587954, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 46, 0.0, 0.6466984481084025, 0.0, 0.0, 0.0, 0.0, 0.0, 0.13442037696778128, 0.0, 0.0, 0.0, 0.13459724310706694, 0.0, 0.0, 0.0, 0.08428393181674908, 0.0, 0.0, 0.0, 0.0 ]
+- [ 47, 0.0, 0.4155759735568271, 0.0, 0.33701907864516756, 0.0, 0.0, 0.24740494779800526, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 48, 0.0, 0.4871009689681901, 0.0, 0.0, 0.0, 0.0, 0.0, 0.35291592182315995, 0.0, 0.0, 0.0, 0.1599831092086499, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 49, 0.0, 0.0, 0.0, 0.42533756938365275, 0.0, 0.131727520331896, 0.11131437440726677, 0.20653214522169944, 0.12508839065548516, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 51, 0.0, 0.0, 0.0, 0.37944800387934663, 0.0, 0.0, 0.13602028033366526, 0.23995085641163863, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.24458085937534946, 0.0, 0.0, 0.0, 0.0 ]
+- [ 52, 0.0, 0.6006566653831056, 0.0, 0.0, 0.0, 0.13625374025832437, 0.0, 0.26308959435857004, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 53, 0.0, 0.0, 0.0, 4.0762920199658833E-7, 0.0, 0.0, 0.6136137388334455, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3863858535373525, 0.0, 0.0, 0.0, 0.0 ]
+- [ 54, 0.0, 0.0, 0.0, 0.3343934868948868, 0.0, 0.0, 0.566797605767064, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.09880890733804916, 1.1155246265570043E-69, 0.0, 0.0, 0.0 ]
+- [ 55, 0.0, 0.0, 0.0, 0.2331975994431328, 0.0, 0.0, 0.7668024005568672, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 56, 0.0, 0.0, 0.0, 0.651038404174475, 0.0, 0.0, 0.34896084257324705, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.532522778284475E-7, 0.0, 0.0, 0.0 ]
+- [ 57, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6659057143474452, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3340942856525548 ]
+- [ 58, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2052141801574391, 0.6640560120039364, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.13072980783862437 ]
+- [ 59, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2001610415035133, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4309398203475851, 0.0, 0.0, 0.3688991381489016 ]
+- [ 60, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6406398997674441, 0.0, 0.0, 0.0, 0.0, 0.35936010023255593, 0.0 ]
+- [ 61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7337987875558328, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2662012124441673, 0.0, 0.0, 0.0, 0.0 ]
+- [ 62, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.16133075428648616, 0.0, 0.0, 0.0, 0.4676844953260853, 0.0, 0.0, 0.0, 0.37098475038742845 ]
+- [ 63, 0.0, 0.0, 0.0, 0.0, 0.0, 0.18823534436635675, 0.2340379919869919, 0.0, 0.0, 0.24789010299228345, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3298365606543679 ]
+- [ 64, 0.0, 0.0, 0.1602733702686036, 0.16310664371568226, 0.0, 0.15383667441222257, 0.3641415190498858, 0.0, 0.0, 0.0, 0.0, 0.15864179255360575, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 65, 0.29714577773735823, 0.27267088606763573, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.43018282796809015, 0.0, 0.0, 5.082269158581962E-7, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 66, 0.14919687670419696, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.4914012085334598E-6, 0.0, 0.0, 0.6772726472590328, 0.0, 0.17352898463556168, 0.0, 0.0, 0.0 ]
+- [ 67, 0.13146504241407575, 0.0, 0.30744314831287256, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0997244308464032, 0.0, 0.17839827298639127, 0.0, 0.0, 0.10953196863361322, 0.0, 0.0029878223898968546, 0.0, 0.0, 0.1704493144167472 ]
+- [ 68, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.13877438620623997, 4.478032385675886E-8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8612255690134363 ]
+- [ 69, 0.0, 0.0, 0.0, 0.15220776413460865, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.36102890727721626, 0.4867633285881751, 0.0, 0.0, 0.0 ]
+- [ 70, 0.12185880985792455, 0.0, 0.0, 0.05948953701527964, 0.0, 0.0, 0.8186516531267958, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 71, 0.13387412350547337, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8661258764945267, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 72, 0.0, 0.0, 0.0, 0.24517422795985547, 0.0, 0.22149835366860351, 0.5333274183715409, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 73, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.31210614257744984, 0.6878938574225503, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 74, 3.7153836502776605E-9, 0.0, 0.0, 0.0, 0.0, 0.3484675937599188, 0.16863671504397237, 0.0, 0.0, 0.0, 0.0, 0.1965173193662296, 0.0, 0.0, 0.0, 0.2863783681144955, 0.0, 0.0, 0.0, 0.0 ]
+- [ 75, 0.43781789485385714, 0.0, 0.16696164292725327, 0.0, 0.0, 0.0, 1.0562170254296149E-6, 0.20577179307146684, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.18944761293039733, 0.0, 0.0, 0.0, 0.0 ]
+- [ 76, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.22169600042484128, 0.0, 0.7783039995751587, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 77, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8359677863509857, 0.16403221364901424, 1.7212509926538775E-118, 0.0, 0.0, 0.0 ]
+- [ 79, 0.0, 0.0, 0.0, 0.45027974893513995, 0.0, 0.0, 0.16804965949753317, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.38167059156732686, 0.0, 0.0, 0.0, 0.0 ]
+- [ 80, 0.0, 0.0, 0.0, 0.07178102859572119, 0.0, 0.0, 0.9282189714042789, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 81, 0.30395151408046595, 0.0, 0.0, 0.0, 0.0, 0.696048485919534, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 82, 0.0, 0.0, 0.0, 0.1596326929428354, 0.0, 0.1596332641269625, 0.6807340429302021, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 83, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4290278420586561, 0.0, 0.5709721579413438, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 84, 0.11079523571813409, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8892047642818659, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 85, 0.0, 0.34874988146481095, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.651250118535189, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 86, 0.1573010765128269, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3780569070727627, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4646420164144105 ]
+- [ 90, 0.1018941622298421, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3564532411438628, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.18995446352716855, 0.0983269709800868, 0.0, 0.0, 0.2533711621190397 ]
+- [ 91, 0.0, 0.0, 0.20189418000275752, 0.0, 0.0, 0.0, 0.0, 0.3340180637339713, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.46408775626327126, 0.0, 0.0, 0.0, 0.0 ]
+- [ 93, 0.0, 0.0, 0.0, 0.9962434647748967, 0.0, 0.0, 0.003756535225103314, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 94, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3872644777306605, 0.6127355222693396, 0.0, 0.0, 0.0 ]
+- [ 97, 0.0, 0.0, 0.5060403242898928, 0.19465486197172066, 0.0, 0.0, 0.0, 0.2993048137383865, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 99, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5625890802100555, 0.0, 0.0, 0.0, 0.0, 0.0, 0.43741091978994445, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 101, 0.11593579937607135, 0.0, 0.0, 0.18188232711841534, 0.0, 0.0, 0.23180945007852233, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.470372423426991 ]
+- [ 104, 0.0, 0.0, 0.0, 0.8382859357957333, 0.0, 0.0, 0.1617140642042666, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 105, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.20019941550318918, 0.5068099794366627, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.09707950024762618, 0.19591110481252194 ]
+- [ 107, 0.22206989355830087, 0.0, 0.0, 0.0, 0.24396611100988774, 0.0, 0.15231606039340573, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.13744984408438285, 0.0, 0.0, 0.0, 0.24419809095402292 ]
+- [ 109, 0.0, 0.0, 0.746650606043431, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.0566850122229746E-7, 0.0, 0.0, 0.2533489882880677, 0.0 ]
+- [ 110, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.779785562803464, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.22021443719653586, 0.0, 0.0, 0.0 ]
+- [ 111, 0.3170495725138698, 0.0, 0.0, 0.0, 0.3496200847135856, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3333284014130634, 0.0, 0.0, 0.0, 0.0, 1.9413594813247046E-6 ]
+- [ 112, 0.0, 0.3429492035422226, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6570507964577773, 0.0, 0.0, 0.0, 1.2800758465032727E-111, 0.0, 0.0, 0.0, 0.0 ]
+- [ 118, 0.03953627689062481, 0.0, 0.0, 0.0, 0.0, 0.9604637231093751, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 119, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03953627689062481, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9604637231093751, 0.0 ]
+- [ 120, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9604637231093751, 0.03953627689062481, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 121, 0.0, 0.0, 0.9604637231093751, 0.03953627689062481, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 122, 0.0, 0.9604637231093751, 0.0, 0.0, 0.0, 0.03953627689062481, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 123, 0.0, 0.3502984893367361, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.24318058924866928, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.40652092141459456 ]
+- [ 132, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9947124898161721, 0.005287510183827916, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 134, 0.9999999226060612, 7.739393891197938E-8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+
+NonHomogeneousFrequencies_Ll:
+# Site, A, R, N, D, C, Q, E, G, H, I, L, K, M, F, P, S, T, W, Y, V
+- [ 7, 0.0, 0.8303044522869859, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.16969554771301407, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 9, 0.0, 0.0, 0.0, 0.9113895141604215, 0.0, 0.0, 0.08861048583957855, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 10, 0.0, 0.9999989479483152, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0520516847119563E-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 11, 0.0, 0.8364515148051147, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.16354848519488535, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 12, 0.0, 0.9999997969138698, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0308613028997502E-7, 0.0, 0.0, 0.0, 0.0 ]
+- [ 13, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.444821252853929E-8, 0.0, 0.0, 0.0, 0.9999999555517876, 0.0, 0.0, 0.0, 0.0 ]
+- [ 14, 0.0, 0.999998038821974, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.9611780259406066E-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 15, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.018806570840168E-7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.999999198119343, 0.0, 0.0, 0.0, 0.0 ]
+- [ 17, 0.0, 4.53990880736807E-5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999546009119263, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 18, 0.0, 0.7213995622635935, 0.0, 0.24134312703993144, 0.0, 0.0, 0.03725731069647509, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 20, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999998776252615, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.2237473855945993E-7, 0.0, 0.0, 0.0 ]
+- [ 21, 0.0, 0.03875030122121199, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.961249698778788, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 22, 0.0, 0.9999975687926339, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.431207366192142E-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 23, 0.0, 0.020907564456749836, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.14955970235763452, 0.0, 0.0, 0.0018867120972309113, 0.0, 0.0, 0.0, 0.8276460210883847, 0.0, 0.0, 0.0, 0.0 ]
+- [ 24, 0.0, 4.542138241074765E-5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999545786175893, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 32, 0.0, 0.007188167514516735, 0.0, 1.6073942458778994E-4, 0.0, 0.0, 0.0, 0.0, 0.9926510930608955, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 33, 0.0, 0.8591478706818796, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.14085212931812038, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 34, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.12046766007483943, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8795323399251604, 0.0, 0.0, 0.0, 0.0 ]
+- [ 36, 0.0, 0.9999989186960782, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0813039218918955E-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 37, 0.0, 1.0880357882085325E-7, 5.385548803694189E-4, 0.8682180551286234, 0.0, 0.0, 0.1312372591277502, 0.0, 1.513328200105046E-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.508731478267157E-6, 0.0, 0.0, 0.0, 0.0 ]
+- [ 39, 0.0, 0.9999975996742649, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.4003257351396325E-6, 0.0, 0.0, 0.0, 0.0 ]
+- [ 40, 0.0, 0.8008008952444042, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.199188125772597, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0978982998813306E-5, 0.0 ]
+- [ 41, 0.0, 0.0, 0.0, 0.5632897749753085, 0.0, 0.0, 0.4361600456612258, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.501793634657827E-4, 0.0, 0.0, 0.0, 0.0 ]
+- [ 42, 0.0, 0.9999928305191998, 0.0, 0.0, 0.0, 0.0, 0.0, 4.780573700253902E-6, 0.0, 0.0, 0.0, 2.3889070996723766E-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 43, 0.0, 0.9999994041141613, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.958858386208787E-7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 44, 0.0, 0.0, 0.0, 0.99999947539327, 0.0, 0.0, 5.2460672994117E-7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 45, 0.0, 0.03723880456183735, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9627611954381626, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 46, 0.0, 0.15421691955335473, 0.0, 0.0, 0.0, 0.0, 0.0, 3.607681159734464E-5, 0.0, 0.0, 0.0, 0.14641887789214442, 0.0, 0.0, 0.0, 0.6993281257429035, 0.0, 0.0, 0.0, 0.0 ]
+- [ 47, 0.0, 0.8754207910193418, 0.0, 0.12004871718382741, 0.0, 0.0, 0.004530491796830825, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 48, 0.0, 0.9999989490976935, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0508101103384979E-6, 0.0, 0.0, 0.0, 9.219618733052304E-11, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 49, 0.0, 0.0, 0.0, 0.9999979069791782, 0.0, 2.4694556509819534E-10, 2.0921058199673695E-6, 1.963843637638421E-211, 6.680561351029278E-10, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 51, 0.0, 0.0, 0.0, 0.24858106234408264, 0.0, 0.0, 0.01293688573936384, 3.460323195032657E-5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.7384474486846032, 0.0, 0.0, 0.0, 0.0 ]
+- [ 52, 0.0, 0.9999973839275609, 0.0, 0.0, 0.0, 2.6160553951749376E-6, 0.0, 1.7043913799903906E-11, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 53, 0.0, 0.0, 0.0, 0.9512084581688189, 0.0, 0.0, 0.04879154178565544, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.552556555316701E-11, 0.0, 0.0, 0.0, 0.0 ]
+- [ 54, 0.0, 0.0, 0.0, 0.27579908332223146, 0.0, 0.0, 5.421443313161739E-5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2604698210979279, 0.4636768811467091, 0.0, 0.0, 0.0 ]
+- [ 55, 0.0, 0.0, 0.0, 0.9999984531756935, 0.0, 0.0, 1.5468243065521154E-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 56, 0.0, 0.0, 0.0, 3.49068746972862E-7, 0.0, 0.0, 0.0637751761384224, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9362244747928306, 0.0, 0.0, 0.0 ]
+- [ 57, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999994198851293, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.801148705751195E-7 ]
+- [ 58, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.04907402530533968, 5.042025199959942E-5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9508755544426607 ]
+- [ 59, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999995754133884, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.966777638322697E-8, 0.0, 0.0, 3.7491883523534544E-7 ]
+- [ 60, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.999999822920731, 0.0, 0.0, 0.0, 0.0, 1.770792690439415E-7, 0.0 ]
+- [ 61, 0.0, 0.0, 0.0, 0.0, 0.0, 0.05963027049485244, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9403697295051475, 0.0, 0.0, 0.0, 0.0 ]
+- [ 62, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9215279221364282, 0.0, 0.0, 0.0, 0.07845222900863023, 0.0, 0.0, 0.0, 1.9848854941568583E-5 ]
+- [ 63, 0.0, 0.0, 0.0, 0.0, 0.0, 0.881615902238821, 0.019728232496813932, 0.0, 0.0, 0.09865128151069028, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.583753674718519E-6 ]
+- [ 64, 0.0, 0.0, 5.719884824855833E-7, 0.2179747937347225, 0.0, 6.340638648838305E-7, 0.7820012234573378, 0.0, 0.0, 0.0, 0.0, 2.27767555923786E-5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 65, 0.038295955823619776, 9.118905235521574E-7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.31729845224979E-4, 0.0, 0.0, 0.9609714024406317, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 66, 3.6104678859120696E-10, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9207824803032971, 0.0, 0.0, 7.778477543884947E-5, 0.0, 0.07913973456021739, 0.0, 0.0, 0.0 ]
+- [ 67, 0.0015573293520082458, 0.0, 1.9467610446911844E-10, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.30890556156726556, 0.0, 1.5485467590294382E-12, 0.0, 0.0, 0.5721200952672731, 0.0, 0.11741653594439867, 0.0, 0.0, 4.77672829621057E-7 ]
+- [ 68, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.90992320243135E-5, 0.9151936679713201, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.08478723279665562 ]
+- [ 69, 0.0, 0.0, 0.0, 0.758635798826322, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.24135337172650081, 1.0829447177026386E-5, 0.0, 0.0, 0.0 ]
+- [ 70, 1.5040588099290873E-5, 0.0, 0.0, 0.47069928631553276, 0.0, 0.0, 0.5292856730963679, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 71, 0.9588020915797303, 0.0, 0.0, 0.0, 0.0, 0.0, 0.04119790842026974, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 72, 0.0, 0.0, 0.0, 0.04721717279928627, 0.0, 0.8984222374914325, 0.05436058970928139, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 73, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0139705403535404E-7, 0.999999798602946, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 74, 0.9434116303851726, 0.0, 0.0, 0.0, 0.0, 6.53112400236011E-5, 7.329381224401535E-11, 0.0, 0.0, 0.0, 0.0, 2.048671640269745E-7, 0.0, 0.0, 0.0, 0.056522853434346015, 0.0, 0.0, 0.0, 0.0 ]
+- [ 75, 0.0991547560072116, 0.0, 5.643686479619742E-5, 0.0, 0.0, 0.0, 0.9007887215844792, 4.396220641443424E-8, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.1581306339438433E-8, 0.0, 0.0, 0.0, 0.0 ]
+- [ 76, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.8300437352218375E-7, 0.0, 0.9999996169956263, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 77, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.905382984345289E-5, 0.009097205083966386, 0.9908537410861902, 0.0, 0.0, 0.0 ]
+- [ 79, 0.0, 0.0, 0.0, 0.1029856068602025, 0.0, 0.0, 0.8969433042012863, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.108893851121734E-5, 0.0, 0.0, 0.0, 0.0 ]
+- [ 80, 0.0, 0.0, 0.0, 0.9011149656050169, 0.0, 0.0, 0.0988850343949831, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 81, 3.531289016867543E-8, 0.0, 0.0, 0.0, 0.0, 0.9999999646871097, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 82, 0.0, 0.0, 0.0, 4.1284779616971036E-14, 0.0, 7.234754648172365E-7, 0.9999992765244939, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 83, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.08329755040983476, 0.0, 0.9167024495901653, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 84, 2.0369653567858664E-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999979630346433, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 85, 0.0, 0.19762788698204148, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.8023721130179586, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 86, 1.1084454822970892E-7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.872574262920386E-7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999990018980255 ]
+- [ 90, 1.2057045518739178E-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3.2538530520584925E-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.07063678221677157, 0.9292665673869609, 0.0, 0.0, 9.219083866369488E-5 ]
+- [ 91, 0.0, 0.0, 2.3101719758815338E-7, 0.0, 0.0, 0.0, 0.0, 0.9999985492458973, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.2197369052504845E-6, 0.0, 0.0, 0.0, 0.0 ]
+- [ 93, 0.0, 0.0, 0.0, 4.5568970276775674E-5, 0.0, 0.0, 0.9999544310297233, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 94, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.3187049800587494E-6, 0.99999868129502, 0.0, 0.0, 0.0 ]
+- [ 97, 0.0, 0.0, 1.50380662565141E-5, 0.12759526747395164, 0.0, 0.0, 0.0, 0.8723896944597919, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 99, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999972217994001, 0.0, 0.0, 0.0, 0.0, 0.0, 2.7782005999223038E-6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 101, 3.2287501446687456E-7, 0.0, 0.0, 0.6634242530519158, 0.0, 0.0, 0.3340202367237564, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.002555187349313422 ]
+- [ 104, 0.0, 0.0, 0.0, 0.7276895060346318, 0.0, 0.0, 0.2723104939653683, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 105, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.0061249426340374E-6, 0.9999965224654334, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.665393301057336E-7, 6.048702940940723E-7 ]
+- [ 107, 1.552175942204298E-6, 0.0, 0.0, 0.0, 5.732956799645274E-6, 0.0, 0.8649134088344103, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1350793060199181, 0.0, 0.0, 0.0, 1.292967735308715E-11 ]
+- [ 109, 0.0, 0.0, 0.01720540613556934, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.982774166026827, 0.0, 0.0, 2.04278376037278E-5, 0.0 ]
+- [ 110, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999997419500402, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.5804995997182194E-7, 0.0, 0.0, 0.0 ]
+- [ 111, 0.025723985940926085, 0.0, 0.0, 0.0, 5.20595542106471E-5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.7744155764886766E-10, 0.0, 0.0, 0.0, 0.0, 0.9742239543274217 ]
+- [ 112, 0.0, 6.434228938439922E-7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.03854840808993316, 0.0, 0.0, 0.0, 0.9614509484871729, 0.0, 0.0, 0.0, 0.0 ]
+- [ 118, 0.422943141861207, 0.0, 0.0, 0.0, 0.0, 0.5770568581387929, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 119, 0.0, 0.0, 0.0, 0.0, 0.0, 0.422943141861207, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5770568581387929, 0.0 ]
+- [ 120, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.5770568581387929, 0.422943141861207, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 121, 0.0, 0.0, 0.5770568581387929, 0.422943141861207, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 122, 0.0, 0.5770568581387929, 0.0, 0.0, 0.0, 0.422943141861207, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 123, 0.0, 0.07961746623847071, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.2251276126474905E-7, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9203824112487681 ]
+- [ 132, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.552190671156172E-5, 0.9999544780932884, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+- [ 134, 0.5701684354075305, 0.4298315645924695, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+
+# --------------------------------------------------------------------------------
+
+SiteResults:
+- !!tdg09.Result
+  site: 1
+  residues: {S: 24}
+  models: null
+- !!tdg09.Result
+  site: 2
+  residues: {R: 24}
+  models: null
+- !!tdg09.Result
+  site: 3
+  residues: {S: 24}
+  models: null
+- !!tdg09.Result
+  site: 4
+  residues: {R: 23}
+  models: null
+- !!tdg09.Result
+  site: 5
+  residues: {S: 24}
+  models: null
+- !!tdg09.Result
+  site: 6
+  residues: {P: 24}
+  models: null
+- !!tdg09.Result
+  site: 7
+  residues: {R: 14, K: 10}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.6685243309475482
+    frequencies:
+    - {R: 0.5978383793684642, K: 0.4021616206315358}
+    lnL: -10.265839714230529
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.7103941013055062
+    frequencies:
+    - {R: 0.5673595983843436, K: 0.4326404016156563}
+    - {R: 0.8303044522869859, K: 0.16969554771301407}
+    lnL: -10.184251228321402
+- !!tdg09.Result
+  site: 8
+  residues: {R: 25}
+  models: null
+- !!tdg09.Result
+  site: 9
+  residues: {D: 10, E: 15}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.779826644808054
+    frequencies:
+    - {D: 0.4123339219475139, E: 0.5876660780524862}
+    lnL: -10.223841754773455
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.7662208626711602
+    frequencies:
+    - {D: 0.31605024346229205, E: 0.683949756537708}
+    - {D: 0.9113895141604215, E: 0.08861048583957855}
+    lnL: -9.393562398834094
+- !!tdg09.Result
+  site: 10
+  residues: {R: 22, K: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.3164228508248925
+    frequencies:
+    - {R: 0.8404060858412863, K: 0.1595939141587137}
+    lnL: -7.068627815816092
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.3726506815620494
+    frequencies:
+    - {R: 0.8180948686033211, K: 0.18190513139667888}
+    - {R: 0.9999989479483152, K: 1.0520516847119563E-6}
+    lnL: -6.86817803427527
+- !!tdg09.Result
+  site: 11
+  residues: {R: 16, K: 7}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.9089850038290024
+    frequencies:
+    - {R: 0.7769479066991545, K: 0.2230520933008455}
+    lnL: -11.316390872043609
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.9239368949030964
+    frequencies:
+    - {R: 0.7689588305355105, K: 0.2310411694644896}
+    - {R: 0.8364515148051147, K: 0.16354848519488535}
+    lnL: -11.300785360961292
+- !!tdg09.Result
+  site: 12
+  residues: {R: 21, S: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.24009571596980095
+    frequencies:
+    - {R: 0.7882786935178674, S: 0.2117213064821326}
+    lnL: -4.927983233581346
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.2862334785156311
+    frequencies:
+    - {R: 0.7753024176004121, S: 0.2246975823995879}
+    - {R: 0.9999997969138698, S: 2.0308613028997502E-7}
+    lnL: -4.768397571447571
+- !!tdg09.Result
+  site: 13
+  residues: {K: 2, S: 22}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.6297654416412115
+    frequencies:
+    - {K: 0.1529493368635515, S: 0.8470506631364485}
+    lnL: -6.230069363989999
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.7128495979182274
+    frequencies:
+    - {K: 0.17000753154101683, S: 0.8299924684589831}
+    - {K: 4.444821252853929E-8, S: 0.9999999555517876}
+    lnL: -5.951584684665049
+- !!tdg09.Result
+  site: 14
+  residues: {R: 22, K: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 1.2318945731967688
+    frequencies:
+    - {R: 0.8940655816792833, K: 0.1059344183207168}
+    lnL: -6.555142005304398
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 1.5652787921478244
+    frequencies:
+    - {R: 0.8802007193117491, K: 0.11979928068825092}
+    - {R: 0.999998038821974, K: 1.9611780259406066E-6}
+    lnL: -6.23148052138761
+- !!tdg09.Result
+  site: 15
+  residues: {E: 4, S: 20}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.336088398238644
+    frequencies:
+    - {E: 0.24956485742159626, S: 0.7504351425784037}
+    lnL: -7.413777310233551
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.4033832457769697
+    frequencies:
+    - {E: 0.2914231707598702, S: 0.7085768292401298}
+    - {E: 8.018806570840168E-7, S: 0.999999198119343}
+    lnL: -7.059588770658115
+- !!tdg09.Result
+  site: 16
+  residues: {R: 25}
+  models: null
+- !!tdg09.Result
+  site: 17
+  residues: {R: 11, K: 7}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.6338329031132162
+    frequencies:
+    - {R: 0.6693681051291802, K: 0.3306318948708198}
+    lnL: -6.225882186354046
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.005592950676543597
+    frequencies:
+    - {R: 0.9800674213241526, K: 0.019932578675847426}
+    - {R: 4.53990880736807E-5, K: 0.9999546009119263}
+    lnL: -0.05850215543503624
+- !!tdg09.Result
+  site: 18
+  residues: {R: 6, D: 9, E: 5}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 8.65692034262187
+    frequencies:
+    - {R: 0.16979590709347586, D: 0.536016772147563, E: 0.29418732075896115}
+    lnL: -12.73189883476356
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 6.714473672598448
+    frequencies:
+    - {R: 2.434968517968515E-8, D: 0.6269447563347894, E: 0.3730552193155253}
+    - {R: 0.7213995622635935, D: 0.24134312703993144, E: 0.03725731069647509}
+    lnL: -10.159391762959112
+- !!tdg09.Result
+  site: 19
+  residues: {R: 19}
+  models: null
+- !!tdg09.Result
+  site: 20
+  residues: {H: 20, T: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 1.256202076561749
+    frequencies:
+    - {H: 0.8783371111865346, T: 0.12166288881346543}
+    lnL: -6.297887912901077
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 1.5633360425916485
+    frequencies:
+    - {H: 0.8599702485405059, T: 0.14002975145949403}
+    - {H: 0.9999998776252615, T: 1.2237473855945993E-7}
+    lnL: -5.940300417319383
+- !!tdg09.Result
+  site: 21
+  residues: {R: 16, K: 7}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.4844358107075095
+    frequencies:
+    - {R: 0.7780356927410084, K: 0.2219643072589916}
+    lnL: -6.301733363730082
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.3474914624386698
+    frequencies:
+    - {R: 0.8988472661599218, K: 0.10115273384007811}
+    - {R: 0.03875030122121199, K: 0.961249698778788}
+    lnL: -4.606261511495962
+- !!tdg09.Result
+  site: 22
+  residues: {R: 23, H: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.44271168605796263
+    frequencies:
+    - {R: 0.8117488398041909, H: 0.188251160195809}
+    lnL: -6.093909271996917
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.49244141547621373
+    frequencies:
+    - {R: 0.7929508930914198, H: 0.2070491069085802}
+    - {R: 0.9999975687926339, H: 2.431207366192142E-6}
+    lnL: -5.838745910531765
+- !!tdg09.Result
+  site: 23
+  residues: {R: 2, H: 14, K: 2, S: 7}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 4
+    rate: 2.0162594123874116
+    frequencies:
+    - {R: 0.1119041413021177, H: 0.586541959459393, K: 0.1307202131970333, S: 0.170833686041456}
+    lnL: -18.868153936183887
+  - name: WAG+lssF
+    converged: true
+    parameters: 7
+    rate: 2.0128931991366814
+    frequencies:
+    - {R: 0.11327648081162431, H: 0.6630770521447399, K: 0.1345903358760587, S: 0.08905613116757703}
+    - {R: 0.020907564456749836, H: 0.14955970235763452, K: 0.0018867120972309113,
+      S: 0.8276460210883847}
+    lnL: -17.106963676550635
+- !!tdg09.Result
+  site: 24
+  residues: {R: 16, H: 6}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.1934119136758397
+    frequencies:
+    - {R: 0.7861046460973662, H: 0.21389535390263392}
+    lnL: -3.7234430613104097
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 4.1482410287807937E-4
+    frequencies:
+    - {R: 0.9946115560180551, H: 0.005388443981945019}
+    - {R: 4.542138241074765E-5, H: 0.9999545786175893}
+    lnL: -0.5912517309747003
+- !!tdg09.Result
+  site: 25
+  residues: {S: 20}
+  models: null
+- !!tdg09.Result
+  site: 26
+  residues: {R: 25}
+  models: null
+- !!tdg09.Result
+  site: 27
+  residues: {S: 25}
+  models: null
+- !!tdg09.Result
+  site: 28
+  residues: {R: 25}
+  models: null
+- !!tdg09.Result
+  site: 29
+  residues: {S: 25}
+  models: null
+- !!tdg09.Result
+  site: 30
+  residues: {P: 14}
+  models: null
+- !!tdg09.Result
+  site: 31
+  residues: {R: 24}
+  models: null
+- !!tdg09.Result
+  site: 32
+  residues: {R: 8, D: 11, H: 5}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.3412690628094242
+    frequencies:
+    - {R: 0.4433170079282329, D: 0.4483721391774704, H: 0.10831085289429664}
+    lnL: -8.16528104186619
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.0969466061944887
+    frequencies:
+    - {R: 0.4960591504561774, D: 0.5039408456087362, H: 3.935086369352386E-9}
+    - {R: 0.007188167514516735, D: 1.6073942458778994E-4, H: 0.9926510930608955}
+    lnL: -5.10639627204258
+- !!tdg09.Result
+  site: 33
+  residues: {R: 10, K: 11}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.6327834644743657
+    frequencies:
+    - {R: 0.5027954365769787, K: 0.4972045634230214}
+    lnL: -7.966341444385305
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.7070204676261844
+    frequencies:
+    - {R: 0.4489763908858487, K: 0.5510236091141514}
+    - {R: 0.8591478706818796, K: 0.14085212931812038}
+    lnL: -7.783771834838171
+- !!tdg09.Result
+  site: 34
+  residues: {G: 10, S: 10}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.3669846747070551
+    frequencies:
+    - {G: 0.6011224339398659, S: 0.3988775660601342}
+    lnL: -5.962135758965698
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.3902350354613129
+    frequencies:
+    - {G: 0.6430888322419399, S: 0.3569111677580601}
+    - {G: 0.12046766007483943, S: 0.8795323399251604}
+    lnL: -5.799912122900773
+- !!tdg09.Result
+  site: 35
+  residues: {R: 24}
+  models: null
+- !!tdg09.Result
+  site: 36
+  residues: {R: 19, K: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 2.221463829278946
+    frequencies:
+    - {R: 0.8301992290776998, K: 0.1698007709223002}
+    lnL: -8.295849279589817
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 2.87409101210893
+    frequencies:
+    - {R: 0.80219301010445, K: 0.19780698989554998}
+    - {R: 0.9999989186960782, K: 1.0813039218918955E-6}
+    lnL: -7.699634701771874
+- !!tdg09.Result
+  site: 37
+  residues: {R: 2, N: 2, D: 8, E: 7, H: 3, S: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 6
+    rate: 1.4170394708976763
+    frequencies:
+    - {R: 0.2980458352145288, N: 0.10468783141242184, D: 0.14997728198434152, E: 0.11832991763118156,
+      H: 0.14672878459610436, S: 0.18223034916142197}
+    lnL: -26.759645834262333
+  - name: WAG+lssF
+    converged: true
+    parameters: 11
+    rate: 1.5368053830574628
+    frequencies:
+    - {R: 0.2828500627025229, N: 0.11846867594140606, D: 0.10889547719866126, E: 0.1565604038149484,
+      H: 0.14845448650452744, S: 0.184770893837934}
+    - {R: 1.0880357882085325E-7, N: 5.385548803694189E-4, D: 0.8682180551286234, E: 0.1312372591277502,
+      H: 1.513328200105046E-6, S: 4.508731478267157E-6}
+    lnL: -25.661225829860896
+- !!tdg09.Result
+  site: 38
+  residues: {R: 22}
+  models: null
+- !!tdg09.Result
+  site: 39
+  residues: {R: 16, S: 8}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.4473377820686437
+    frequencies:
+    - {R: 0.46168032397373854, S: 0.5383196760262614}
+    lnL: -8.049203814850092
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.29488048160788705
+    frequencies:
+    - {R: 0.3094342526730893, S: 0.6905657473269107}
+    - {R: 0.9999975996742649, S: 2.4003257351396325E-6}
+    lnL: -6.251074805677016
+- !!tdg09.Result
+  site: 40
+  residues: {R: 12, H: 6, Y: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 1.1382857256983412
+    frequencies:
+    - {R: 0.47703199297951715, H: 0.22921383289350644, Y: 0.29375417412697635}
+    lnL: -13.063429790947684
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 1.1962637935605551
+    frequencies:
+    - {R: 0.46357151689822085, H: 0.23647117149725944, Y: 0.29995731160451977}
+    - {R: 0.8008008952444042, H: 0.199188125772597, Y: 1.0978982998813306E-5}
+    lnL: -12.970264694377423
+- !!tdg09.Result
+  site: 41
+  residues: {D: 8, E: 2, S: 14}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.7475935405000729
+    frequencies:
+    - {D: 0.25433833655957017, E: 0.14605652207949887, S: 0.5996051413609309}
+    lnL: -12.49783187864797
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.7392651206589328
+    frequencies:
+    - {D: 0.24809062936964657, E: 0.14615712635558334, S: 0.60575224427477}
+    - {D: 0.5632897749753085, E: 0.4361600456612258, S: 5.501793634657827E-4}
+    lnL: -12.441703482956617
+- !!tdg09.Result
+  site: 42
+  residues: {R: 18, G: 2, K: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 6.387029164795139
+    frequencies:
+    - {R: 0.7328617164345455, G: 0.13659910201201525, K: 0.13053918155343935}
+    lnL: -14.627923722986662
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 7.213729513800132
+    frequencies:
+    - {R: 0.6827002553937679, G: 0.15776240035969769, K: 0.15953734424653448}
+    - {R: 0.9999928305191998, G: 4.780573700253902E-6, K: 2.3889070996723766E-6}
+    lnL: -13.570085244374209
+- !!tdg09.Result
+  site: 43
+  residues: {R: 21, K: 4}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.6698314473032951
+    frequencies:
+    - {R: 0.7641338138822881, K: 0.23586618611771185}
+    lnL: -8.616975392667479
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.726028051076992
+    frequencies:
+    - {R: 0.7289913145265662, K: 0.27100868547343393}
+    - {R: 0.9999994041141613, K: 5.958858386208787E-7}
+    lnL: -8.146491285842215
+- !!tdg09.Result
+  site: 44
+  residues: {D: 20, E: 5}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 1.1505313229281455
+    frequencies:
+    - {D: 0.6483822315187585, E: 0.3516177684812415}
+    lnL: -10.746664953265446
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 1.269629775042699
+    frequencies:
+    - {D: 0.6120034924733851, E: 0.3879965075266148}
+    - {D: 0.99999947539327, E: 5.2460672994117E-7}
+    lnL: -10.038717731896677
+- !!tdg09.Result
+  site: 45
+  residues: {R: 16, K: 7}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.44097014371072873
+    frequencies:
+    - {R: 0.7349837696904075, K: 0.2650162303095925}
+    lnL: -6.395676213654345
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.33663717290277473
+    frequencies:
+    - {R: 0.8945421361741205, K: 0.10545786382587954}
+    - {R: 0.03723880456183735, K: 0.9627611954381626}
+    lnL: -4.699318339739913
+- !!tdg09.Result
+  site: 46
+  residues: {R: 8, G: 5, K: 2, S: 7}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 4
+    rate: 4.1318877091868025
+    frequencies:
+    - {R: 0.5807733555096, G: 0.1129799048768397, K: 0.14717419180716237, S: 0.159072547806398}
+    lnL: -19.01039112126442
+  - name: WAG+lssF
+    converged: true
+    parameters: 7
+    rate: 4.058939619134835
+    frequencies:
+    - {R: 0.6466984481084025, G: 0.13442037696778128, K: 0.13459724310706694, S: 0.08428393181674908}
+    - {R: 0.15421691955335473, G: 3.607681159734464E-5, K: 0.14641887789214442, S: 0.6993281257429035}
+    lnL: -17.404630935122558
+- !!tdg09.Result
+  site: 47
+  residues: {R: 7, D: 10, E: 5}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 1.1975965889339681
+    frequencies:
+    - {R: 0.5743575736303828, D: 0.24748894916478933, E: 0.17815347720482785}
+    lnL: -14.883527871346013
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 1.3750787025412468
+    frequencies:
+    - {R: 0.4155759735568271, D: 0.33701907864516756, E: 0.24740494779800526}
+    - {R: 0.8754207910193418, D: 0.12004871718382741, E: 0.004530491796830825}
+    lnL: -13.307687561372713
+- !!tdg09.Result
+  site: 48
+  residues: {R: 14, G: 2, K: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.8754892430240004
+    frequencies:
+    - {R: 0.4756126895843339, G: 0.41669359580869564, K: 0.10769371460697046}
+    lnL: -12.804006861887268
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 1.6732032006597999
+    frequencies:
+    - {R: 0.4871009689681901, G: 0.35291592182315995, K: 0.1599831092086499}
+    - {R: 0.9999989490976935, G: 1.0508101103384979E-6, K: 9.219618733052304E-11}
+    lnL: -11.843885720412606
+- !!tdg09.Result
+  site: 49
+  residues: {D: 13, Q: 2, E: 2, G: 3, H: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 5
+    rate: 7.781977695944685
+    frequencies:
+    - {D: 0.5106878138690308, Q: 0.11492368200887645, E: 0.08815103017981901, G: 0.17775018699918446,
+      H: 0.10848728694308922}
+    lnL: -25.698725358220823
+  - name: WAG+lssF
+    converged: true
+    parameters: 9
+    rate: 9.394161871419257
+    frequencies:
+    - {D: 0.42533756938365275, Q: 0.131727520331896, E: 0.11131437440726677, G: 0.20653214522169944,
+      H: 0.12508839065548516}
+    - {D: 0.9999979069791782, Q: 2.4694556509819534E-10, E: 2.0921058199673695E-6,
+      G: 1.963843637638421E-211, H: 6.680561351029278E-10}
+    lnL: -23.396138323265166
+- !!tdg09.Result
+  site: 50
+  residues: {R: 21}
+  models: null
+- !!tdg09.Result
+  site: 51
+  residues: {D: 6, E: 2, G: 2, S: 8}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 4
+    rate: 3.4081238487960386
+    frequencies:
+    - {D: 0.35372873573792435, E: 0.12368819722575698, G: 0.19928302713441207, S: 0.32330003990190653}
+    lnL: -17.305918695165992
+  - name: WAG+lssF
+    converged: true
+    parameters: 7
+    rate: 3.693170146078538
+    frequencies:
+    - {D: 0.37944800387934663, E: 0.13602028033366526, G: 0.23995085641163863, S: 0.24458085937534946}
+    - {D: 0.24858106234408264, E: 0.01293688573936384, G: 3.460323195032657E-5, S: 0.7384474486846032}
+    lnL: -16.469516951607197
+- !!tdg09.Result
+  site: 52
+  residues: {R: 14, Q: 2, G: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 5.1296517163019555
+    frequencies:
+    - {R: 0.6654029496802621, Q: 0.10603830134308484, G: 0.22855874897665296}
+    lnL: -13.535246275764475
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 6.968701239153543
+    frequencies:
+    - {R: 0.6006566653831056, Q: 0.13625374025832437, G: 0.26308959435857004}
+    - {R: 0.9999973839275609, Q: 2.6160553951749376E-6, G: 1.7043913799903906E-11}
+    lnL: -12.19651538694244
+- !!tdg09.Result
+  site: 53
+  residues: {D: 4, E: 7, S: 6}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 3.7587903837756693
+    frequencies:
+    - {D: 0.14064263542466848, E: 0.5305158083372628, S: 0.3288415562380688}
+    lnL: -14.199900690578739
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 1.6416431658220534
+    frequencies:
+    - {D: 4.0762920199658833E-7, E: 0.6136137388334455, S: 0.3863858535373525}
+    - {D: 0.9512084581688189, E: 0.04879154178565544, S: 4.552556555316701E-11}
+    lnL: -9.54174862032622
+- !!tdg09.Result
+  site: 54
+  residues: {D: 5, E: 7, S: 3, T: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 4
+    rate: 31.57599227818823
+    frequencies:
+    - {D: 0.3303607173207622, E: 0.443573941051571, S: 0.1564691843585638, T: 0.06959615726910304}
+    lnL: -21.220409938095063
+  - name: WAG+lssF
+    converged: true
+    parameters: 7
+    rate: 46.03995685748686
+    frequencies:
+    - {D: 0.3343934868948868, E: 0.566797605767064, S: 0.09880890733804916, T: 1.1155246265570043E-69}
+    - {D: 0.27579908332223146, E: 5.421443313161739E-5, S: 0.2604698210979279, T: 0.4636768811467091}
+    lnL: -17.649086286355914
+- !!tdg09.Result
+  site: 55
+  residues: {D: 9, E: 9}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 1.94270992372185
+    frequencies:
+    - {D: 0.3944257588697775, E: 0.6055742411302225}
+    lnL: -9.477515754434219
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 1.4616724798627811
+    frequencies:
+    - {D: 0.2331975994431328, E: 0.7668024005568672}
+    - {D: 0.9999984531756935, E: 1.5468243065521154E-6}
+    lnL: -6.132372485443085
+- !!tdg09.Result
+  site: 56
+  residues: {D: 5, E: 9, T: 6}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.7187737049447845
+    frequencies:
+    - {D: 0.38126499512758133, E: 0.2632379574332808, T: 0.3554970474391378}
+    lnL: -11.966305357549
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.7024818078976576
+    frequencies:
+    - {D: 0.651038404174475, E: 0.34896084257324705, T: 7.532522778284475E-7}
+    - {D: 3.49068746972862E-7, E: 0.0637751761384224, T: 0.9362244747928306}
+    lnL: -8.744656816094613
+- !!tdg09.Result
+  site: 57
+  residues: {E: 16, V: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.8912206590175629
+    frequencies:
+    - {E: 0.7718121109439058, V: 0.22818788905609427}
+    lnL: -5.263343173920359
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.8300878483211346
+    frequencies:
+    - {E: 0.6659057143474452, V: 0.3340942856525548}
+    - {E: 0.9999994198851293, V: 5.801148705751195E-7}
+    lnL: -4.683321697192121
+- !!tdg09.Result
+  site: 58
+  residues: {I: 2, L: 10, V: 7}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 1.7533505122959294
+    frequencies:
+    - {I: 0.1939616852881905, L: 0.5329702502231101, V: 0.27306806448869936}
+    lnL: -11.393295319441286
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 1.7381338042095744
+    frequencies:
+    - {I: 0.2052141801574391, L: 0.6640560120039364, V: 0.13072980783862437}
+    - {I: 0.04907402530533968, L: 5.042025199959942E-5, V: 0.9508755544426607}
+    lnL: -9.842029080618246
+- !!tdg09.Result
+  site: 59
+  residues: {I: 12, T: 3, V: 5}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 1.7355930513189608
+    frequencies:
+    - {I: 0.320756249099548, T: 0.36480112710224755, V: 0.3144426237982044}
+    lnL: -15.568483969026337
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 1.4366460459836565
+    frequencies:
+    - {I: 0.2001610415035133, T: 0.4309398203475851, V: 0.3688991381489016}
+    - {I: 0.9999995754133884, T: 4.966777638322697E-8, V: 3.7491883523534544E-7}
+    lnL: -13.263146570800785
+- !!tdg09.Result
+  site: 60
+  residues: {F: 17, Y: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.5082505988712003
+    frequencies:
+    - {F: 0.6904181581584021, Y: 0.3095818418415979}
+    lnL: -5.012674248976891
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.5592569718320839
+    frequencies:
+    - {F: 0.6406398997674441, Y: 0.35936010023255593}
+    - {F: 0.999999822920731, Y: 1.770792690439415E-7}
+    lnL: -4.577769737830574
+- !!tdg09.Result
+  site: 61
+  residues: {Q: 10, S: 6}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.26861234195530415
+    frequencies:
+    - {Q: 0.5924003011319686, S: 0.40759969886803127}
+    lnL: -3.809366736771614
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.3526630993916473
+    frequencies:
+    - {Q: 0.7337987875558328, S: 0.2662012124441673}
+    - {Q: 0.05963027049485244, S: 0.9403697295051475}
+    lnL: -3.492640904623602
+- !!tdg09.Result
+  site: 62
+  residues: {K: 7, S: 7, V: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.9942535900678817
+    frequencies:
+    - {K: 0.3077081195764272, S: 0.3549331737558111, V: 0.3373587066677617}
+    lnL: -8.558602055637612
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.9365822991937092
+    frequencies:
+    - {K: 0.16133075428648616, S: 0.4676844953260853, V: 0.37098475038742845}
+    - {K: 0.9215279221364282, S: 0.07845222900863023, V: 1.9848854941568583E-5}
+    lnL: -7.438850023436643
+- !!tdg09.Result
+  site: 63
+  residues: {Q: 7, E: 2, I: 5, V: 5}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 4
+    rate: 8.980255559562895
+    frequencies:
+    - {Q: 0.34437938998516904, E: 0.15683372427742462, I: 0.23921176185320173, V: 0.2595751238842045}
+    lnL: -18.21966730326213
+  - name: WAG+lssF
+    converged: true
+    parameters: 7
+    rate: 8.59585912614613
+    frequencies:
+    - {Q: 0.18823534436635675, E: 0.2340379919869919, I: 0.24789010299228345, V: 0.3298365606543679}
+    - {Q: 0.881615902238821, E: 0.019728232496813932, I: 0.09865128151069028, V: 4.583753674718519E-6}
+    lnL: -15.885877034670212
+- !!tdg09.Result
+  site: 64
+  residues: {N: 2, D: 4, Q: 3, E: 12, K: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 5
+    rate: 2.461747514338981
+    frequencies:
+    - {N: 0.15121191379863075, D: 0.15853286975628128, Q: 0.1336367653124121, E: 0.40523725046406345,
+      K: 0.15138120066861235}
+    lnL: -25.666619396577293
+  - name: WAG+lssF
+    converged: true
+    parameters: 9
+    rate: 2.6945070732349246
+    frequencies:
+    - {N: 0.1602733702686036, D: 0.16310664371568226, Q: 0.15383667441222257, E: 0.3641415190498858,
+      K: 0.15864179255360575}
+    - {N: 5.719884824855833E-7, D: 0.2179747937347225, Q: 6.340638648838305E-7, E: 0.7820012234573378,
+      K: 2.27767555923786E-5}
+    lnL: -25.08300372124194
+- !!tdg09.Result
+  site: 65
+  residues: {A: 2, R: 4, K: 11, P: 6}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 4
+    rate: 1.009834755188101
+    frequencies:
+    - {A: 0.20874322049135385, R: 0.20612569167405895, K: 0.34489960119264546, P: 0.24023148664194174}
+    lnL: -16.13006632706672
+  - name: WAG+lssF
+    converged: true
+    parameters: 7
+    rate: 0.8909470362487736
+    frequencies:
+    - {A: 0.29714577773735823, R: 0.27267088606763573, K: 0.43018282796809015, P: 5.082269158581962E-7}
+    - {A: 0.038295955823619776, R: 9.118905235521574E-7, K: 7.31729845224979E-4, P: 0.9609714024406317}
+    lnL: -13.03971129986685
+- !!tdg09.Result
+  site: 66
+  residues: {A: 2, K: 6, P: 12, T: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 4
+    rate: 1.750808337259507
+    frequencies:
+    - {A: 0.14726154172860903, K: 0.11557084718907715, P: 0.5658714485383601, T: 0.1712961625439537}
+    lnL: -15.914544956295224
+  - name: WAG+lssF
+    converged: true
+    parameters: 7
+    rate: 1.7820132020235393
+    frequencies:
+    - {A: 0.14919687670419696, K: 1.4914012085334598E-6, P: 0.6772726472590328, T: 0.17352898463556168}
+    - {A: 3.6104678859120696E-10, K: 0.9207824803032971, P: 7.778477543884947E-5,
+      T: 0.07913973456021739}
+    lnL: -12.822368360168792
+- !!tdg09.Result
+  site: 67
+  residues: {A: 2, N: 4, I: 4, K: 2, P: 6, T: 2, V: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 7
+    rate: 6.541390100861864
+    frequencies:
+    - {A: 0.10751686279724663, N: 0.2499201900909952, I: 0.1455517920465033, K: 0.12619569352812154,
+      P: 0.1888268870851436, T: 0.06510537022706556, V: 0.11688320422492415}
+    lnL: -35.636841452954016
+  - name: WAG+lssF
+    converged: false
+    parameters: 13
+    rate: 5.2261359885319
+    frequencies:
+    - {A: 0.13146504241407575, N: 0.30744314831287256, I: 0.0997244308464032, K: 0.17839827298639127,
+      P: 0.10953196863361322, T: 0.0029878223898968546, V: 0.1704493144167472}
+    - {A: 0.0015573293520082458, N: 1.9467610446911844E-10, I: 0.30890556156726556,
+      K: 1.5485467590294382E-12, P: 0.5721200952672731, T: 0.11741653594439867, V: 4.77672829621057E-7}
+    lnL: -29.832103953618986
+- !!tdg09.Result
+  site: 68
+  residues: {I: 2, L: 6, V: 15}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.9382334675744162
+    frequencies:
+    - {I: 0.12416601744525685, L: 0.15334165865467497, V: 0.7224923239000681}
+    lnL: -9.847347894617071
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.8023006241419528
+    frequencies:
+    - {I: 0.13877438620623997, L: 4.478032385675886E-8, V: 0.8612255690134363}
+    - {I: 1.90992320243135E-5, L: 0.9151936679713201, V: 0.08478723279665562}
+    lnL: -6.865660296728863
+- !!tdg09.Result
+  site: 69
+  residues: {D: 7, S: 7, T: 7}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 3.3354258998945037
+    frequencies:
+    - {D: 0.2341029601888723, S: 0.3471806365418512, T: 0.4187164032692764}
+    lnL: -15.165591829514952
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 3.4968933081029894
+    frequencies:
+    - {D: 0.15220776413460865, S: 0.36102890727721626, T: 0.4867633285881751}
+    - {D: 0.758635798826322, S: 0.24135337172650081, T: 1.0829447177026386E-5}
+    lnL: -13.825079330155944
+- !!tdg09.Result
+  site: 70
+  residues: {A: 2, D: 4, E: 18}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 3.063675860467618
+    frequencies:
+    - {A: 0.12787595706210036, D: 0.0965300859332084, E: 0.7755939570046911}
+    lnL: -14.413948152230722
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 3.559903927452149
+    frequencies:
+    - {A: 0.12185880985792455, D: 0.05948953701527964, E: 0.8186516531267958}
+    - {A: 1.5040588099290873E-5, D: 0.47069928631553276, E: 0.5292856730963679}
+    lnL: -13.317983489704663
+- !!tdg09.Result
+  site: 71
+  residues: {A: 7, E: 14}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.5036349662196957
+    frequencies:
+    - {A: 0.27163551440425265, E: 0.7283644855957473}
+    lnL: -5.791715887651052
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.36402191182664045
+    frequencies:
+    - {A: 0.13387412350547337, E: 0.8661258764945267}
+    - {A: 0.9588020915797303, E: 0.04119790842026974}
+    lnL: -4.335647955503846
+- !!tdg09.Result
+  site: 72
+  residues: {D: 7, Q: 9, E: 9}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 2.6983852878502934
+    frequencies:
+    - {D: 0.24248652363506207, Q: 0.27732923654407743, E: 0.48018423982086056}
+    lnL: -19.77386727259661
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 2.8074767573219583
+    frequencies:
+    - {D: 0.24517422795985547, Q: 0.22149835366860351, E: 0.5333274183715409}
+    - {D: 0.04721717279928627, Q: 0.8984222374914325, E: 0.05436058970928139}
+    lnL: -18.43816191562713
+- !!tdg09.Result
+  site: 73
+  residues: {I: 4, L: 19}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.49490865368755765
+    frequencies:
+    - {I: 0.2542228234733653, L: 0.7457771765266347}
+    lnL: -8.012887389277697
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.4567093938187704
+    frequencies:
+    - {I: 0.31210614257744984, L: 0.6878938574225503}
+    - {I: 2.0139705403535404E-7, L: 0.999999798602946}
+    lnL: -7.294663919445815
+- !!tdg09.Result
+  site: 74
+  residues: {A: 6, Q: 10, E: 3, K: 3, S: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 5
+    rate: 2.046865910936722
+    frequencies:
+    - {A: 0.13045882293447106, Q: 0.3147469312296866, E: 0.15174800859302792, K: 0.17504278258160222,
+      S: 0.22800345466121227}
+    lnL: -23.666076505168128
+  - name: WAG+lssF
+    converged: true
+    parameters: 9
+    rate: 1.8677596726804018
+    frequencies:
+    - {A: 3.7153836502776605E-9, Q: 0.3484675937599188, E: 0.16863671504397237, K: 0.1965173193662296,
+      S: 0.2863783681144955}
+    - {A: 0.9434116303851726, Q: 6.53112400236011E-5, E: 7.329381224401535E-11, K: 2.048671640269745E-7,
+      S: 0.056522853434346015}
+    lnL: -20.438666922542605
+- !!tdg09.Result
+  site: 75
+  residues: {A: 4, N: 6, E: 6, G: 5, S: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 5
+    rate: 1.6514602893954398
+    frequencies:
+    - {A: 0.3723937315530504, N: 0.1478001801891573, E: 0.1391143704092143, G: 0.17488355539520062,
+      S: 0.16580816245337748}
+    lnL: -19.980197379580027
+  - name: WAG+lssF
+    converged: true
+    parameters: 9
+    rate: 1.5715404114035407
+    frequencies:
+    - {A: 0.43781789485385714, N: 0.16696164292725327, E: 1.0562170254296149E-6, G: 0.20577179307146684,
+      S: 0.18944761293039733}
+    - {A: 0.0991547560072116, N: 5.643686479619742E-5, E: 0.9007887215844792, G: 4.396220641443424E-8,
+      S: 4.1581306339438433E-8}
+    lnL: -17.125550071134096
+- !!tdg09.Result
+  site: 76
+  residues: {L: 3, M: 20}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.8129742164164782
+    frequencies:
+    - {L: 0.19544062898229023, M: 0.8045593710177097}
+    lnL: -7.711564784064756
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.9684157382056346
+    frequencies:
+    - {L: 0.22169600042484128, M: 0.7783039995751587}
+    - {L: 3.8300437352218375E-7, M: 0.9999996169956263}
+    lnL: -7.321239685780264
+- !!tdg09.Result
+  site: 77
+  residues: {P: 15, S: 3, T: 6}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.562845039490371
+    frequencies:
+    - {P: 0.7410608407790225, S: 0.14557358879417084, T: 0.11336557042680676}
+    lnL: -9.865492647670074
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.4042697097305823
+    frequencies:
+    - {P: 0.8359677863509857, S: 0.16403221364901424, T: 1.7212509926538775E-118}
+    - {P: 4.905382984345289E-5, S: 0.009097205083966386, T: 0.9908537410861902}
+    lnL: -6.674333093111998
+- !!tdg09.Result
+  site: 78
+  residues: {E: 23}
+  models: null
+- !!tdg09.Result
+  site: 79
+  residues: {D: 13, E: 10, S: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.8856323466205893
+    frequencies:
+    - {D: 0.3970309469964318, E: 0.2190429213278904, S: 0.3839261316756778}
+    lnL: -16.056931522234667
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.8889042769027957
+    frequencies:
+    - {D: 0.45027974893513995, E: 0.16804965949753317, S: 0.38167059156732686}
+    - {D: 0.1029856068602025, E: 0.8969433042012863, S: 7.108893851121734E-5}
+    lnL: -15.083337202729972
+- !!tdg09.Result
+  site: 80
+  residues: {D: 6, E: 19}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.9059521020390093
+    frequencies:
+    - {D: 0.12227552835179573, E: 0.8777244716482042}
+    lnL: -9.26192616287159
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.4426557060367411
+    frequencies:
+    - {D: 0.07178102859572119, E: 0.9282189714042789}
+    - {D: 0.9011149656050169, E: 0.0988850343949831}
+    lnL: -8.068693083415933
+- !!tdg09.Result
+  site: 81
+  residues: {A: 3, Q: 21}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.3655670151823508
+    frequencies:
+    - {A: 0.27864214326336584, Q: 0.7213578567366342}
+    lnL: -6.444166770293954
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.4146772909019555
+    frequencies:
+    - {A: 0.30395151408046595, Q: 0.696048485919534}
+    - {A: 3.531289016867543E-8, Q: 0.9999999646871097}
+    lnL: -6.14089689535504
+- !!tdg09.Result
+  site: 82
+  residues: {D: 2, Q: 2, E: 20}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.5434780128593566
+    frequencies:
+    - {D: 0.13574870273203227, Q: 0.13433515387150988, E: 0.7299161433964578}
+    lnL: -9.771194040480134
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.5761994018618585
+    frequencies:
+    - {D: 0.1596326929428354, Q: 0.1596332641269625, E: 0.6807340429302021}
+    - {D: 4.1284779616971036E-14, Q: 7.234754648172365E-7, E: 0.9999992765244939}
+    lnL: -9.255201039823516
+- !!tdg09.Result
+  site: 83
+  residues: {L: 10, M: 16}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.3653593217022717
+    frequencies:
+    - {L: 0.4265424195143822, M: 0.5734575804856178}
+    lnL: -9.423488066378292
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.3972481962911733
+    frequencies:
+    - {L: 0.4290278420586561, M: 0.5709721579413438}
+    - {L: 0.08329755040983476, M: 0.9167024495901653}
+    lnL: -9.282086766667794
+- !!tdg09.Result
+  site: 84
+  residues: {A: 2, M: 23}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.2941416800022125
+    frequencies:
+    - {A: 0.09996027585614022, M: 0.9000397241438598}
+    lnL: -4.81318408040892
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.33992848526647435
+    frequencies:
+    - {A: 0.11079523571813409, M: 0.8892047642818659}
+    - {A: 2.0369653567858664E-6, M: 0.9999979630346433}
+    lnL: -4.664155426542311
+- !!tdg09.Result
+  site: 85
+  residues: {R: 9, K: 17}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 1.6144469822756946
+    frequencies:
+    - {R: 0.3298071993902976, K: 0.6701928006097023}
+    lnL: -14.149661974105976
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 1.658253522982651
+    frequencies:
+    - {R: 0.34874988146481095, K: 0.651250118535189}
+    - {R: 0.19762788698204148, K: 0.8023721130179586}
+    lnL: -14.06918521981473
+- !!tdg09.Result
+  site: 86
+  residues: {A: 2, L: 6, V: 16}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.794490597944939
+    frequencies:
+    - {A: 0.13182033255806513, L: 0.32123895785667056, V: 0.5469407095852642}
+    lnL: -12.52212471148603
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.8022312674708703
+    frequencies:
+    - {A: 0.1573010765128269, L: 0.3780569070727627, V: 0.4646420164144105}
+    - {A: 1.1084454822970892E-7, L: 8.872574262920386E-7, V: 0.9999990018980255}
+    lnL: -11.453440093317498
+- !!tdg09.Result
+  site: 87
+  residues: {M: 26}
+  models: null
+- !!tdg09.Result
+  site: 88
+  residues: {G: 26}
+  models: null
+- !!tdg09.Result
+  site: 89
+  residues: {F: 26}
+  models: null
+- !!tdg09.Result
+  site: 90
+  residues: {A: 2, G: 3, S: 11, T: 8, V: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 5
+    rate: 0.46281197482125014
+    frequencies:
+    - {A: 0.10087432515873097, G: 0.3930201830635312, S: 0.15213761671601103, T: 0.12062864955021083,
+      V: 0.23333922551151584}
+    lnL: -18.880233208149882
+  - name: WAG+lssF
+    converged: true
+    parameters: 9
+    rate: 0.532973834869964
+    frequencies:
+    - {A: 0.1018941622298421, G: 0.3564532411438628, S: 0.18995446352716855, T: 0.0983269709800868,
+      V: 0.2533711621190397}
+    - {A: 1.2057045518739178E-6, G: 3.2538530520584925E-6, S: 0.07063678221677157,
+      T: 0.9292665673869609, V: 9.219083866369488E-5}
+    lnL: -18.23594256367002
+- !!tdg09.Result
+  site: 91
+  residues: {N: 2, G: 18, S: 6}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.8425379290706636
+    frequencies:
+    - {N: 0.20321928408403966, G: 0.3629914565004521, S: 0.43378925941550817}
+    lnL: -13.417891904876043
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.9936124539028526
+    frequencies:
+    - {N: 0.20189418000275752, G: 0.3340180637339713, S: 0.46408775626327126}
+    - {N: 2.3101719758815338E-7, G: 0.9999985492458973, S: 1.2197369052504845E-6}
+    lnL: -12.684880632013689
+- !!tdg09.Result
+  site: 92
+  residues: {F: 26}
+  models: null
+- !!tdg09.Result
+  site: 93
+  residues: {D: 21, E: 5}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.25941252361872413
+    frequencies:
+    - {D: 0.9041665918723159, E: 0.09583340812768429}
+    lnL: -6.480194673941077
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 1.8911180264072255E-4
+    frequencies:
+    - {D: 0.9962434647748967, E: 0.003756535225103314}
+    - {D: 4.5568970276775674E-5, E: 0.9999544310297233}
+    lnL: -3.512153776158543
+- !!tdg09.Result
+  site: 94
+  residues: {S: 6, T: 20}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 1.2281959373503923
+    frequencies:
+    - {S: 0.3480161422992561, T: 0.651983857700744}
+    lnL: -12.108930863408956
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 1.403053816750116
+    frequencies:
+    - {S: 0.3872644777306605, T: 0.6127355222693396}
+    - {S: 1.3187049800587494E-6, T: 0.99999868129502}
+    lnL: -11.353662810278554
+- !!tdg09.Result
+  site: 95
+  residues: {T: 26}
+  models: null
+- !!tdg09.Result
+  site: 96
+  residues: {K: 26}
+  models: null
+- !!tdg09.Result
+  site: 97
+  residues: {N: 8, D: 7, G: 11}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 1.0847996585384552
+    frequencies:
+    - {N: 0.43199197179848553, D: 0.1783033106707238, G: 0.38970471753079056}
+    lnL: -17.207492043083548
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 1.0856338325982935
+    frequencies:
+    - {N: 0.5060403242898928, D: 0.19465486197172066, G: 0.2993048137383865}
+    - {N: 1.50380662565141E-5, D: 0.12759526747395164, G: 0.8723896944597919}
+    lnL: -16.242456990936226
+- !!tdg09.Result
+  site: 98
+  residues: {K: 26}
+  models: null
+- !!tdg09.Result
+  site: 99
+  residues: {Q: 19, K: 7}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.12956218142062426
+    frequencies:
+    - {Q: 0.5890425793468863, K: 0.41095742065311375}
+    lnL: -5.128878836666212
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.14843169321307442
+    frequencies:
+    - {Q: 0.5625890802100555, K: 0.43741091978994445}
+    - {Q: 0.9999972217994001, K: 2.7782005999223038E-6}
+    lnL: -4.858203594872274
+- !!tdg09.Result
+  site: 100
+  residues: {V: 26}
+  models: null
+- !!tdg09.Result
+  site: 101
+  residues: {A: 2, D: 2, E: 2, V: 18}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 4
+    rate: 0.7914040028361156
+    frequencies:
+    - {A: 0.10843312057374754, D: 0.18129002979088887, E: 0.2253173715212229, V: 0.48495947811414075}
+    lnL: -11.625738215002547
+  - name: WAG+lssF
+    converged: true
+    parameters: 7
+    rate: 0.8139027073348787
+    frequencies:
+    - {A: 0.11593579937607135, D: 0.18188232711841534, E: 0.23180945007852233, V: 0.470372423426991}
+    - {A: 3.2287501446687456E-7, D: 0.6634242530519158, E: 0.3340202367237564, V: 0.002555187349313422}
+    lnL: -11.538194617576647
+- !!tdg09.Result
+  site: 102
+  residues: {G: 26}
+  models: null
+- !!tdg09.Result
+  site: 103
+  residues: {N: 26}
+  models: null
+- !!tdg09.Result
+  site: 104
+  residues: {D: 22, E: 4}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 2.4590310119092464
+    frequencies:
+    - {D: 0.8282168905953268, E: 0.17178310940467317}
+    lnL: -10.776415587347302
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 2.894961604598253
+    frequencies:
+    - {D: 0.8382859357957333, E: 0.1617140642042666}
+    - {D: 0.7276895060346318, E: 0.2723104939653683}
+    lnL: -10.712196902860716
+- !!tdg09.Result
+  site: 105
+  residues: {H: 6, I: 12, Y: 2, V: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 4
+    rate: 8.759502725469858
+    frequencies:
+    - {H: 0.16551455134488896, I: 0.5899244123410351, Y: 0.08425835535546929, V: 0.16030268095860672}
+    lnL: -20.820413061305793
+  - name: WAG+lssF
+    converged: true
+    parameters: 7
+    rate: 8.236103347364526
+    frequencies:
+    - {H: 0.20019941550318918, I: 0.5068099794366627, Y: 0.09707950024762618, V: 0.19591110481252194}
+    - {H: 2.0061249426340374E-6, I: 0.9999965224654334, Y: 8.665393301057336E-7, V: 6.048702940940723E-7}
+    lnL: -19.2593112119346
+- !!tdg09.Result
+  site: 106
+  residues: {Y: 24}
+  models: null
+- !!tdg09.Result
+  site: 107
+  residues: {A: 4, C: 2, E: 7, S: 6, V: 5}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 5
+    rate: 1.0143580306006035
+    frequencies:
+    - {A: 0.19492277374598174, C: 0.2495587778581894, E: 0.2028901337716893, S: 0.1327266131147242,
+      V: 0.21990170150941546}
+    lnL: -22.15356150626891
+  - name: WAG+lssF
+    converged: true
+    parameters: 9
+    rate: 1.1100805174637336
+    frequencies:
+    - {A: 0.22206989355830087, C: 0.24396611100988774, E: 0.15231606039340573, S: 0.13744984408438285,
+      V: 0.24419809095402292}
+    - {A: 1.552175942204298E-6, C: 5.732956799645274E-6, E: 0.8649134088344103, S: 0.1350793060199181,
+      V: 1.292967735308715E-11}
+    lnL: -21.26218116998236
+- !!tdg09.Result
+  site: 108
+  residues: {A: 25}
+  models: null
+- !!tdg09.Result
+  site: 109
+  residues: {N: 18, S: 6, Y: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.30070985432253083
+    frequencies:
+    - {N: 0.6071103780457239, S: 0.11096496411080845, Y: 0.28192465784346765}
+    lnL: -8.864138567546156
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.16168193129068759
+    frequencies:
+    - {N: 0.746650606043431, S: 4.0566850122229746E-7, Y: 0.2533489882880677}
+    - {N: 0.01720540613556934, S: 0.982774166026827, Y: 2.04278376037278E-5}
+    lnL: -5.713054954458389
+- !!tdg09.Result
+  site: 110
+  residues: {I: 23, T: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.17726168036460876
+    frequencies:
+    - {I: 0.7933796238031718, T: 0.20662037619682816}
+    lnL: -3.712712561529387
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 0.19735123818363987
+    frequencies:
+    - {I: 0.779785562803464, T: 0.22021443719653586}
+    - {I: 0.9999997419500402, T: 2.5804995997182194E-7}
+    lnL: -3.598110102740488
+- !!tdg09.Result
+  site: 111
+  residues: {A: 5, C: 10, P: 4, V: 6}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 4
+    rate: 0.4733318936953392
+    frequencies:
+    - {A: 0.2672028702838675, C: 0.2897128163247832, P: 0.2953919554369022, V: 0.14769235795444716}
+    lnL: -13.125676126475836
+  - name: WAG+lssF
+    converged: true
+    parameters: 7
+    rate: 0.35101583032247263
+    frequencies:
+    - {A: 0.3170495725138698, C: 0.3496200847135856, P: 0.3333284014130634, V: 1.9413594813247046E-6}
+    - {A: 0.025723985940926085, C: 5.20595542106471E-5, P: 1.7744155764886766E-10,
+      V: 0.9742239543274217}
+    lnL: -10.25925975204841
+- !!tdg09.Result
+  site: 112
+  residues: {R: 3, K: 17, S: 6}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.4400273573486292
+    frequencies:
+    - {R: 0.1952756678946712, K: 0.4972578835309342, S: 0.30746644857439465}
+    lnL: -9.956520713706817
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.35835276217214695
+    frequencies:
+    - {R: 0.3429492035422226, K: 0.6570507964577773, S: 1.2800758465032727E-111}
+    - {R: 6.434228938439922E-7, K: 0.03854840808993316, S: 0.9614509484871729}
+    lnL: -6.653316076810314
+- !!tdg09.Result
+  site: 113
+  residues: {K: 26}
+  models: null
+- !!tdg09.Result
+  site: 114
+  residues: {R: 26}
+  models: null
+- !!tdg09.Result
+  site: 115
+  residues: {R: 26}
+  models: null
+- !!tdg09.Result
+  site: 116
+  residues: {Y: 26}
+  models: null
+- !!tdg09.Result
+  site: 117
+  residues: {R: 26}
+  models: null
+- !!tdg09.Result
+  site: 118
+  residues: {A: 3, Q: 23}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 4.047230329364538
+    frequencies:
+    - {A: 0.0808486513227446, Q: 0.9191513486772555}
+    lnL: -7.918715028846044
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 9.136812467430182
+    frequencies:
+    - {A: 0.03953627689062481, Q: 0.9604637231093751}
+    - {A: 0.422943141861207, Q: 0.5770568581387929}
+    lnL: -6.313700935120115
+- !!tdg09.Result
+  site: 119
+  residues: {Q: 3, Y: 23}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 4.047230329364538
+    frequencies:
+    - {Q: 0.0808486513227446, Y: 0.9191513486772555}
+    lnL: -7.918715028846057
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 9.136812467430182
+    frequencies:
+    - {Q: 0.03953627689062481, Y: 0.9604637231093751}
+    - {Q: 0.422943141861207, Y: 0.5770568581387929}
+    lnL: -6.313700935120107
+- !!tdg09.Result
+  site: 120
+  residues: {M: 23, F: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 4.047230329364538
+    frequencies:
+    - {M: 0.9191513486772555, F: 0.0808486513227446}
+    lnL: -7.9187150288460515
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 9.136812467430182
+    frequencies:
+    - {M: 0.9604637231093751, F: 0.03953627689062481}
+    - {M: 0.5770568581387929, F: 0.422943141861207}
+    lnL: -6.313700935120242
+- !!tdg09.Result
+  site: 121
+  residues: {N: 23, D: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 4.047230329364538
+    frequencies:
+    - {N: 0.9191513486772555, D: 0.0808486513227446}
+    lnL: -7.918715028846017
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 9.136812467430182
+    frequencies:
+    - {N: 0.9604637231093751, D: 0.03953627689062481}
+    - {N: 0.5770568581387929, D: 0.422943141861207}
+    lnL: -6.313700935120113
+- !!tdg09.Result
+  site: 122
+  residues: {R: 23, Q: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 4.047230329364538
+    frequencies:
+    - {R: 0.9191513486772555, Q: 0.0808486513227446}
+    lnL: -7.918715028846018
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 9.136812467430182
+    frequencies:
+    - {R: 0.9604637231093751, Q: 0.03953627689062481}
+    - {R: 0.5770568581387929, Q: 0.422943141861207}
+    lnL: -6.313700935120113
+- !!tdg09.Result
+  site: 123
+  residues: {R: 12, K: 11, V: 3}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 3
+    rate: 0.14961652200461428
+    frequencies:
+    - {R: 0.17457573823834235, K: 0.06525708596318353, V: 0.760167175798474}
+    lnL: -23.713904922799898
+  - name: WAG+lssF
+    converged: true
+    parameters: 5
+    rate: 0.2778729057119745
+    frequencies:
+    - {R: 0.3502984893367361, K: 0.24318058924866928, V: 0.40652092141459456}
+    - {R: 0.07961746623847071, K: 1.2251276126474905E-7, V: 0.9203824112487681}
+    lnL: -20.50164491616591
+- !!tdg09.Result
+  site: 124
+  residues: {G: 26}
+  models: null
+- !!tdg09.Result
+  site: 125
+  residues: {G: 23}
+  models: null
+- !!tdg09.Result
+  site: 126
+  residues: {F: 23}
+  models: null
+- !!tdg09.Result
+  site: 127
+  residues: {N: 23}
+  models: null
+- !!tdg09.Result
+  site: 128
+  residues: {R: 23}
+  models: null
+- !!tdg09.Result
+  site: 129
+  residues: {P: 23}
+  models: null
+- !!tdg09.Result
+  site: 130
+  residues: {L: 23}
+  models: null
+- !!tdg09.Result
+  site: 131
+  residues: {D: 23}
+  models: null
+- !!tdg09.Result
+  site: 132
+  residues: {F: 20, P: 6}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 0.17203565663658082
+    frequencies:
+    - {F: 0.7930671379007279, P: 0.20693286209927206}
+    lnL: -3.8203495040451867
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 4.149506387291264E-4
+    frequencies:
+    - {F: 0.9947124898161721, P: 0.005287510183827916}
+    - {F: 4.552190671156172E-5, P: 0.9999544780932884}
+    lnL: -0.5914357723785153
+- !!tdg09.Result
+  site: 133
+  residues: {I: 25}
+  models: null
+- !!tdg09.Result
+  site: 134
+  residues: {A: 23, R: 2}
+  models:
+  - name: WAG+ssF
+    converged: true
+    parameters: 2
+    rate: 2.3386473993723627
+    frequencies:
+    - {A: 0.9563809736330057, R: 0.043619026366994426}
+    lnL: -5.165341214560051
+  - name: WAG+lssF
+    converged: true
+    parameters: 3
+    rate: 6.695154537468718
+    frequencies:
+    - {A: 0.9999999226060612, R: 7.739393891197938E-8}
+    - {A: 0.5701684354075305, R: 0.4298315645924695}
+    lnL: -2.1601196720904485
+
+EndTime: 2022-01-31 16:36:20.604
+
+...
