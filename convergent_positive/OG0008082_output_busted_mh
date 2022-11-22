@@ -1,0 +1,137 @@
+
+Analysis Description
+--------------------
+BUSTED-SMSH (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection and. Assuming there is
+evidence of positive selection (i.e. there is an omega > 1), BUSTED will
+also perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection. v2.0 adds support
+for synonymous rate variation, and relaxes the test statistic to 0.5
+(chi^2_0 + chi^2_2). Version 2.1 adds a grid search for the initial
+starting point. Version 2.2 changes the grid search to LHC, and adds an
+initial search phase to use adaptive Nedler-Mead. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71
+
+- __Written by__: Sergei L Kosakovsky Pond, Sadie Wisotsky
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.2
+
+
+>code –> Universal
+/media/storage/mariangelaiannello/OXPHOS_prj_transcriptomes/REVISIONS/0V2_ALL4_TRIMM_AND_CORR_PVALUE/after_giobbe/DEFINITIVE_RESULTS/hyphy/BUSTED_MH_4SPP/dir_005/OG0008082_no_brlen.tree
+OG0008082_no_brlen.tree
+
+>Loaded a multiple sequence alignment with **24** sequences, **303** codons, and **1** partitions from `/media/storage/mariangelaiannello/OXPHOS_prj_transcriptomes/REVISIONS/0V2_ALL4_TRIMM_AND_CORR_PVALUE/after_giobbe/DEFINITIVE_RESULTS/hyphy/BUSTED_MH_4SPP/dir_005/OG0008082.fa`
+
+>branches –> Foreground
+
+>srv –> Yes
+The number omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>rates –> 3
+The number omega rate classes to include in the model (permissible range = [1,10], default value = 3, integer): 
+>syn-rates –> 3
+The number of points in the initial distributional guess for likelihood fitting (permissible range = [1,10000], default value = 250, integer): 
+>grid-size –> 250
+The number of initial random guesses to 'seed' rate values optimization (permissible range = [1,25], default value = 1, integer): 
+>starting-points –> 1
+
+
+### Branches to test for selection in the BUSTED analysis
+* Selected 4 branches to test in the BUSTED analysis: `Margaritifera_margaritifera, Lampsilis_siliquoidea, Elliptio_complanata, Arctica_islandica`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -15162.86, AIC-c = 30431.98 (53 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  5.955
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -14319.36, AIC-c = 28761.77 (61 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.1827
+* non-synonymous/synonymous rate ratio for *test* =   0.9630
+
+### Fitting MG94 with double instantaneous substitutions
+* Log(L) = -14063.86, AIC-c = 28252.80 (62 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.0982
+* non-synonymous/synonymous rate ratio for *test* =   0.9747
+* rate at which 2 nucleotides are changed instantly within a single codon =   1.2782
+
+### Fitting MG94 with double and triple instantaneous substitutions
+* Log(L) = -14002.93, AIC-c = 28135.01 (64 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.1143
+* non-synonymous/synonymous rate ratio for *test* =   1.1637
+* rate at which 2 nucleotides are changed instantly within a single codon =   0.6933
+* rate at which 3 nucleotides are changed instantly within a single codon =   1.4405
+* rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands =  22.4972
+
+### Performing the full (dN/dS > 1 allowed) branch-site model fit
+* Log(L) = -13817.13, AIC-c = 27796.06 (80 estimated parameters)
+* rate at which 2 nucleotides are changed instantly within a single codon =   0.3645
+* rate at which 3 nucleotides are changed instantly within a single codon =   0.3068
+* rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands =  15.3509
+* [busted.test] rate at which 2 nucleotides are changed instantly within a single codon =   0.0005
+* [busted.test] rate at which 3 nucleotides are changed instantly within a single codon =   0.0000
+* [busted.test] rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands =   0.0000
+* For *test* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.063     |   45.193    |                                   |
+|        Negative selection         |     0.069     |   46.673    |                                   |
+|      Diversifying selection       |    377.443    |    8.134    |                                   |
+
+* For *background* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.019     |   45.246    |                                   |
+|        Negative selection         |     0.187     |   54.754    |                                   |
+|      Diversifying selection       |     4.298     |    0.000    |       Not supported by data       |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.203               |     6.088     |                                   |
+|               0.516               |    52.533     |                                   |
+|               1.732               |    41.379     |                                   |
+
+
+### Performing the constrained (dN/dS > 1 not allowed) model fit
+* Log(L) = -13831.70, AIC-c = 27823.16 (79 estimated parameters)
+* rate at which 2 nucleotides are changed instantly within a single codon =   0.3338
+* rate at which 3 nucleotides are changed instantly within a single codon =   0.2555
+* rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands =  14.1444
+* [busted.test] rate at which 2 nucleotides are changed instantly within a single codon =   1.0397
+* [busted.test] rate at which 3 nucleotides are changed instantly within a single codon =   3.1063
+* [busted.test] rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands =   0.0000
+* For *test* branches under the null (no dN/dS > 1 model), the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.000     |   37.186    |                                   |
+|         Neutral evolution         |     1.000     |    0.143    |                                   |
+|         Neutral evolution         |     1.000     |   62.671    |       Collapsed rate class        |
+
+* The following rate distribution for site-to-site **synonymous** rate variation was inferred
+
+|               Rate                | Proportion, % |               Notes               |
+|-----------------------------------|---------------|-----------------------------------|
+|               0.185               |     5.922     |                                   |
+|               0.504               |    52.565     |                                   |
+|               1.745               |    41.513     |                                   |
+
+----
+## Branch-site unrestricted statistical test of episodic diversification [BUSTED]
+Likelihood ratio test for episodic diversifying positive selection, **p =   0.0000**.
+
